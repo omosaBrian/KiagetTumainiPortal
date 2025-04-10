@@ -3,45 +3,45 @@ import { Calendar, Clock, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 
-// Sample events data - this would typically come from an API
+// School events data based on school calendar
 const upcomingEvents = [
   {
     id: "event1",
-    date: "05",
-    month: "May",
+    date: "25",
+    month: "Apr",
     year: "2025",
     time: "8:00 AM",
-    title: "School Reopening",
-    excerpt: "Term 2 begins. All students are expected to report by 8:00 AM with all required materials.",
-    location: "Main Campus",
-    slug: "/news-events/school-reopening"
+    title: "Term 2 Begins",
+    excerpt: "All students are expected to report to school with all required materials for the new term.",
+    location: "Both Campuses",
+    slug: "/news-events/term-2-begins"
   },
   {
     id: "event2",
-    date: "12",
+    date: "10",
     month: "May",
     year: "2025",
-    time: "10:00 AM",
-    title: "Parent-Teacher Meeting",
-    excerpt: "Form 1 and Form 2 parents are invited to discuss student progress and upcoming term activities.",
-    location: "Annex Campus Hall",
-    slug: "/news-events/parent-teacher-meeting"
+    time: "9:00 AM",
+    title: "Kiage Tumaini Annual Sports Day",
+    excerpt: "Annual inter-house sports competition featuring athletics, football, volleyball, and other games.",
+    location: "Main Campus Sports Grounds",
+    slug: "/news-events/annual-sports-day"
   },
   {
     id: "event3",
-    date: "20",
-    month: "May",
+    date: "17",
+    month: "Jun",
     year: "2025",
-    time: "2:00 PM",
-    title: "Science Fair",
-    excerpt: "Annual science exhibition showcasing student projects from all grades.",
-    location: "Main Campus Grounds",
-    slug: "/news-events/science-fair"
+    time: "10:00 AM",
+    title: "Form 4 Career Day",
+    excerpt: "Professionals from various fields will mentor our Form 4 students on career choices and university selection.",
+    location: "Annex Campus Hall",
+    slug: "/news-events/career-day"
   }
 ];
 
 export default function EventCalendar() {
-  const currentMonth = "May 2025";
+  const currentMonth = "April-June 2025";
 
   return (
     <div className="bg-white rounded-lg shadow-md p-6">

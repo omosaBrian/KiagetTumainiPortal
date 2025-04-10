@@ -120,14 +120,14 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <CampusCard 
-              image="https://images.unsplash.com/photo-1543505298-b8be9b52a21a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80"
+              image="https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/341823444_193101323506797_8083534012366083741_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=mh6XQG56rQ8AYUo5wbk&_nc_ht=scontent.fnbo9-1.fna&oh=00_AV8s_R9lzGKKQlGi4v41IrD4B0-M86T1Bj4n9EqyxSKUaA&oe=661F9D69"
               title="Main Campus"
               description="Our flagship campus features modern classrooms, science laboratories, computer labs, extensive sports facilities, and comfortable boarding accommodations for our senior students."
               link="/campuses/main"
             />
             
             <CampusCard 
-              image="https://images.unsplash.com/photo-1604134967494-8a9ed3adea0d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80"
+              image="https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/341823468_215969877739702_8957071033739650761_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=GY9jCiBCxU8AYenB2W2&_nc_ht=scontent.fnbo9-1.fna&oh=00_AV-MWDQZ3VxPPmbCgzMsLqCNlELfL7E1jBIrbCrGS1jyrw&oe=661EDDA2"
               title="Annex Campus"
               description="Our annex campus provides a focused learning environment for our junior students with dedicated facilities including library resources, arts studios, and recreational areas."
               link="/campuses/annex"
@@ -194,9 +194,9 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="md:w-1/2">
               <img 
-                src="https://images.unsplash.com/photo-1617802690992-15d93263d3a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=500&q=80" 
-                alt="Student with VR headset" 
-                className="rounded-lg shadow-lg w-full h-auto"
+                src="https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/341820055_1245120119403322_2398551268319491756_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=o0wkfCN1q1IAYcN4-rS&_nc_ht=scontent.fnbo9-1.fna&oh=00_AV_PsI9buhQfHzwG8yT8hU-7JL5EcpE-rXNzjjIw4VTNZw&oe=661ED4F3" 
+                alt="Kiage Tumaini Boys computer lab" 
+                className="rounded-lg shadow-lg w-full h-auto object-cover"
               />
             </div>
             
@@ -230,7 +230,7 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <AcademicStage
-              image="https://images.unsplash.com/photo-1629872430082-93d8912bece9?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=380&q=80"
+              image="https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/341857809_1197453341181863_4373756493240350989_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=RVTK9wgR-RMAX_TZ6gJ&_nc_ht=scontent.fnbo9-1.fna&oh=00_AV_wWRrLuDlEELWdtqUERk_N5tAUr_GgvEJzcwHVb-4PQA&oe=661F7B79"
               title="Junior High School"
               ageRange="Ages 12 - 14 Years Old"
               description="Our junior program focuses on building a solid academic foundation while developing essential life skills and character values."
@@ -238,7 +238,7 @@ export default function Home() {
             />
             
             <AcademicStage
-              image="https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=380&q=80"
+              image="https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/341820055_239376838483254_5331905812865559238_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=RyOVyU2LrzIAYSs-DZk&_nc_ht=scontent.fnbo9-1.fna&oh=00_AV94eCBa6Q-nkU0lXV9jn0qgDdILOFtRYq9wMdBnz72y6w&oe=661EE6FA"
               title="Senior High School"
               ageRange="Ages 15 - 18 Years Old"
               description="Our senior program prepares students for KCSE examinations and higher education with specialized subjects and advanced learning."
@@ -246,7 +246,7 @@ export default function Home() {
             />
             
             <AcademicStage
-              image="https://images.unsplash.com/photo-1604761773777-95d3a2dd2348?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=380&q=80"
+              image="https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/341832257_939225400433356_7358555150658409773_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=8QBi5vweFa8AYKyU7Uh&_nc_ht=scontent.fnbo9-1.fna&oh=00_AV-v2kJ8A9FKAQGJWq2LwS5S-VJiB7bIW9UXQxsgLwC86A&oe=661F3FEB"
               title="Boarding Facilities"
               ageRange="Ages 13 - 18 Years Old"
               description="Our boarding program provides a supportive community environment that fosters independence, discipline, and academic focus."
@@ -357,7 +357,7 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <ProgramCard
-              image="https://images.unsplash.com/photo-1516979187457-637abb4f9353?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80"
+              image="https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/341737343_942228923568752_8977228467545954242_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=wJsRLUQoOVEAYNgqmkW&_nc_ht=scontent.fnbo9-1.fna&oh=00_AV-1JUFFsIbh04Ug3Tzo2DBEI8TRaXwcRctjCGTpspXk7g&oe=661F7D62"
               title="Technology In Education"
               description="Integrating the latest educational technologies to enhance learning and prepare students for the digital age."
               link="/programs/technology"
