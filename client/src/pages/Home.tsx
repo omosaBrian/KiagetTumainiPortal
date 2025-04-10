@@ -196,7 +196,7 @@ export default function Home() {
               <h2 className="text-3xl font-['Playfair_Display'] font-bold text-[#77995D] mb-4">
                 Expanding the Bounds of Learning with Technology
               </h2>
-              <div className="w-20 h-1 bg-[#ffc857] mb-6"></div>
+              <div className="w-20 h-1 bg-[#9B2226] mb-6"></div>
               <p className="text-gray-700 mb-6">
                 Our classrooms are no longer static entities confined by four walls. At Tumaini Kiage Boys High School, 
                 through the integration of modern technology, we're creating dynamic, interactive ecosystems where 
@@ -284,7 +284,7 @@ export default function Home() {
                 <div>
                   <div className="flex justify-between items-center mb-2">
                     <h4 className="text-lg font-medium">Achieved A - C</h4>
-                    <span className="text-xl font-bold text-[#0a2463]">82%</span>
+                    <span className="text-xl font-bold text-[#77995D]">82%</span>
                   </div>
                   <div className="w-full bg-gray-200 rounded-full h-2.5">
                     <div className="bg-[#ffc857] h-2.5 rounded-full" style={{ width: "82%" }}></div>
@@ -300,7 +300,7 @@ export default function Home() {
                 <div>
                   <div className="flex justify-between items-center mb-2">
                     <h4 className="text-lg font-medium">Achieved A</h4>
-                    <span className="text-xl font-bold text-[#0a2463]">20%</span>
+                    <span className="text-xl font-bold text-[#77995D]">20%</span>
                   </div>
                   <div className="w-full bg-gray-200 rounded-full h-2.5">
                     <div className="bg-[#ffc857] h-2.5 rounded-full" style={{ width: "20%" }}></div>
@@ -310,7 +310,7 @@ export default function Home() {
                 <div>
                   <div className="flex justify-between items-center mb-2">
                     <h4 className="text-lg font-medium">Achieved A - B</h4>
-                    <span className="text-xl font-bold text-[#0a2463]">52%</span>
+                    <span className="text-xl font-bold text-[#77995D]">52%</span>
                   </div>
                   <div className="w-full bg-gray-200 rounded-full h-2.5">
                     <div className="bg-[#ffc857] h-2.5 rounded-full" style={{ width: "52%" }}></div>
@@ -320,7 +320,7 @@ export default function Home() {
                 <div>
                   <div className="flex justify-between items-center mb-2">
                     <h4 className="text-lg font-medium">Achieved A - C</h4>
-                    <span className="text-xl font-bold text-[#0a2463]">78%</span>
+                    <span className="text-xl font-bold text-[#77995D]">78%</span>
                   </div>
                   <div className="w-full bg-gray-200 rounded-full h-2.5">
                     <div className="bg-[#ffc857] h-2.5 rounded-full" style={{ width: "78%" }}></div>
@@ -394,16 +394,16 @@ export default function Home() {
           
           <div className="flex flex-wrap justify-center items-center gap-8">
             <a href="https://www.knec.ac.ke/" target="_blank" rel="noopener noreferrer" className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-              <div className="h-16 w-48 flex items-center justify-center bg-gray-100 text-[#0a2463] font-bold">KNEC</div>
+              <div className="h-16 w-48 flex items-center justify-center bg-gray-100 text-[#77995D] font-bold">KNEC</div>
             </a>
             <a href="https://www.kessha.co.ke/" target="_blank" rel="noopener noreferrer" className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-              <div className="h-16 w-48 flex items-center justify-center bg-gray-100 text-[#0a2463] font-bold">KSSSHA</div>
+              <div className="h-16 w-48 flex items-center justify-center bg-gray-100 text-[#77995D] font-bold">KSSSHA</div>
             </a>
             <a href="https://www.tsc.go.ke/" target="_blank" rel="noopener noreferrer" className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-              <div className="h-16 w-48 flex items-center justify-center bg-gray-100 text-[#0a2463] font-bold">TSC</div>
+              <div className="h-16 w-48 flex items-center justify-center bg-gray-100 text-[#77995D] font-bold">TSC</div>
             </a>
             <a href="https://kicd.ac.ke/" target="_blank" rel="noopener noreferrer" className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-              <div className="h-16 w-48 flex items-center justify-center bg-gray-100 text-[#0a2463] font-bold">KICD</div>
+              <div className="h-16 w-48 flex items-center justify-center bg-gray-100 text-[#77995D] font-bold">KICD</div>
             </a>
           </div>
         </div>
