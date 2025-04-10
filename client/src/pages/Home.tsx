@@ -104,7 +104,7 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-['Playfair_Display'] font-bold text-[#77995D] text-center mb-4">
             Our School Campuses
           </h2>
-          <div className="w-20 h-1 bg-[#ffc857] mx-auto mb-6"></div>
+          <div className="w-20 h-1 bg-[#9B2226] mx-auto mb-6"></div>
           <p className="text-gray-600 text-center mb-12 max-w-3xl mx-auto">
             Tumaini Kiage Boys High School educates our bright, young learners at our two expansive sites 
             within Kisii County, Kenya.
@@ -218,7 +218,7 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-['Playfair_Display'] font-bold text-[#77995D] text-center mb-4">
             Academic Stages
           </h2>
-          <div className="w-20 h-1 bg-[#ffc857] mx-auto mb-12"></div>
+          <div className="w-20 h-1 bg-[#9B2226] mx-auto mb-12"></div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <AcademicStage
@@ -254,7 +254,7 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-['Playfair_Display'] font-bold text-[#77995D] text-center mb-4">
             2023 Academic Results
           </h2>
-          <div className="w-20 h-1 bg-[#ffc857] mx-auto mb-12"></div>
+          <div className="w-20 h-1 bg-[#9B2226] mx-auto mb-12"></div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-md">
@@ -338,7 +338,7 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-['Playfair_Display'] font-bold text-[#77995D] text-center mb-4">
             A Leading School
           </h2>
-          <div className="w-20 h-1 bg-[#ffc857] mx-auto mb-6"></div>
+          <div className="w-20 h-1 bg-[#9B2226] mx-auto mb-6"></div>
           <p className="text-gray-600 text-center mb-12 max-w-3xl mx-auto">
             As a member of the Kenya Secondary Schools Association, Tumaini Kiage Boys High School is committed 
             to providing a modern, forward-looking education while remaining anchored in the culture and 
@@ -390,7 +390,7 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-['Playfair_Display'] font-bold text-[#77995D] text-center mb-4">
             Accreditations
           </h2>
-          <div className="w-20 h-1 bg-[#ffc857] mx-auto mb-12"></div>
+          <div className="w-20 h-1 bg-[#9B2226] mx-auto mb-12"></div>
           
           <div className="flex flex-wrap justify-center items-center gap-8">
             <a href="https://www.knec.ac.ke/" target="_blank" rel="noopener noreferrer" className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
@@ -413,7 +413,7 @@ export default function Home() {
       <section id="contact" className="py-16 bg-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-['Playfair_Display'] font-bold text-[#77995D] mb-4">Contact Us Today</h2>
-          <div className="w-20 h-1 bg-[#ffc857] mx-auto mb-6"></div>
+          <div className="w-20 h-1 bg-[#9B2226] mx-auto mb-6"></div>
           <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
             Find out how we can develop your child's skills and expand their horizons for a life of success.
           </p>
