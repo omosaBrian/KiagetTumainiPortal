@@ -134,7 +134,7 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-['Playfair_Display'] font-bold text-[#77995D] text-center mb-4">
             Why Choose Our School
           </h2>
-          <div className="w-20 h-1 bg-[#ffc857] mx-auto mb-6"></div>
+          <div className="w-20 h-1 bg-[#9B2226] mx-auto mb-6"></div>
           <p className="text-gray-600 text-center mb-12 max-w-3xl mx-auto">
             Tumaini Kiage Boys High School provides a character-focused, values-driven education 
             through a comprehensive educational program.
@@ -267,7 +267,7 @@ export default function Home() {
                     <span className="text-xl font-bold text-[#77995D]">24%</span>
                   </div>
                   <div className="w-full bg-gray-200 rounded-full h-2.5">
-                    <div className="bg-[#ffc857] h-2.5 rounded-full" style={{ width: "24%" }}></div>
+                    <div className="bg-[#9B2226] h-2.5 rounded-full" style={{ width: "24%" }}></div>
                   </div>
                 </div>
                 
@@ -277,7 +277,7 @@ export default function Home() {
                     <span className="text-xl font-bold text-[#77995D]">58%</span>
                   </div>
                   <div className="w-full bg-gray-200 rounded-full h-2.5">
-                    <div className="bg-[#ffc857] h-2.5 rounded-full" style={{ width: "58%" }}></div>
+                    <div className="bg-[#9B2226] h-2.5 rounded-full" style={{ width: "58%" }}></div>
                   </div>
                 </div>
                 
@@ -287,7 +287,7 @@ export default function Home() {
                     <span className="text-xl font-bold text-[#77995D]">82%</span>
                   </div>
                   <div className="w-full bg-gray-200 rounded-full h-2.5">
-                    <div className="bg-[#ffc857] h-2.5 rounded-full" style={{ width: "82%" }}></div>
+                    <div className="bg-[#9B2226] h-2.5 rounded-full" style={{ width: "82%" }}></div>
                   </div>
                 </div>
               </div>
@@ -303,7 +303,7 @@ export default function Home() {
                     <span className="text-xl font-bold text-[#77995D]">20%</span>
                   </div>
                   <div className="w-full bg-gray-200 rounded-full h-2.5">
-                    <div className="bg-[#ffc857] h-2.5 rounded-full" style={{ width: "20%" }}></div>
+                    <div className="bg-[#9B2226] h-2.5 rounded-full" style={{ width: "20%" }}></div>
                   </div>
                 </div>
                 
@@ -313,7 +313,7 @@ export default function Home() {
                     <span className="text-xl font-bold text-[#77995D]">52%</span>
                   </div>
                   <div className="w-full bg-gray-200 rounded-full h-2.5">
-                    <div className="bg-[#ffc857] h-2.5 rounded-full" style={{ width: "52%" }}></div>
+                    <div className="bg-[#9B2226] h-2.5 rounded-full" style={{ width: "52%" }}></div>
                   </div>
                 </div>
                 
@@ -323,7 +323,7 @@ export default function Home() {
                     <span className="text-xl font-bold text-[#77995D]">78%</span>
                   </div>
                   <div className="w-full bg-gray-200 rounded-full h-2.5">
-                    <div className="bg-[#ffc857] h-2.5 rounded-full" style={{ width: "78%" }}></div>
+                    <div className="bg-[#9B2226] h-2.5 rounded-full" style={{ width: "78%" }}></div>
                   </div>
                 </div>
               </div>
