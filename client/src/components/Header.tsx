@@ -86,7 +86,7 @@ export default function Header() {
                 key={link.path}
                 href={link.path} 
                 onClick={closeMenu}
-                className="text-gray-700 hover:text-[#77995D] font-medium py-2 block"
+                className="text-gray-700 hover:text-[#8FBC8F] font-medium py-2 block"
               >
                 {link.name}
               </Link>
