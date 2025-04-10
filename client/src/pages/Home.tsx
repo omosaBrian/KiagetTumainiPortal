@@ -52,7 +52,7 @@ export default function Home() {
               </p>
               <Button 
                 variant="default" 
-                className="bg-[#0a2463] hover:bg-[#173681] text-white transition duration-300 transform hover:-translate-y-1 hover:shadow-md"
+                className="bg-[#77995D] hover:bg-[#5d7a47] text-white transition duration-300 transform hover:-translate-y-1 hover:shadow-md"
                 asChild
               >
                 <Link href="/about">
@@ -75,7 +75,7 @@ export default function Home() {
       {/* News Section */}
       <section id="news" className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-['Playfair_Display'] font-bold text-[#0a2463] text-center mb-4">
+          <h2 className="text-3xl md:text-4xl font-['Playfair_Display'] font-bold text-[#77995D] text-center mb-4">
             Latest News & Events
           </h2>
           <p className="text-gray-600 text-center mb-12">
@@ -87,7 +87,7 @@ export default function Home() {
           <div className="text-center">
             <Button 
               variant="default" 
-              className="bg-[#0a2463] hover:bg-[#173681] text-white transition duration-300 transform hover:-translate-y-1 hover:shadow-md"
+              className="bg-[#77995D] hover:bg-[#5d7a47] text-white transition duration-300 transform hover:-translate-y-1 hover:shadow-md"
               asChild
             >
               <Link href="/news-events">
@@ -101,7 +101,7 @@ export default function Home() {
       {/* Campuses Section */}
       <section id="campuses" className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-['Playfair_Display'] font-bold text-[#0a2463] text-center mb-4">
+          <h2 className="text-3xl md:text-4xl font-['Playfair_Display'] font-bold text-[#77995D] text-center mb-4">
             Our School Campuses
           </h2>
           <div className="w-20 h-1 bg-[#ffc857] mx-auto mb-6"></div>
@@ -131,7 +131,7 @@ export default function Home() {
       {/* Features Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-['Playfair_Display'] font-bold text-[#0a2463] text-center mb-4">
+          <h2 className="text-3xl md:text-4xl font-['Playfair_Display'] font-bold text-[#77995D] text-center mb-4">
             Why Choose Our School
           </h2>
           <div className="w-20 h-1 bg-[#ffc857] mx-auto mb-6"></div>
@@ -174,7 +174,7 @@ export default function Home() {
             <div className="bg-white p-6 rounded-lg shadow-md flex items-center justify-center">
               <Link 
                 href="/about#features" 
-                className="text-[#0a2463] hover:text-[#173681] font-bold text-center"
+                className="text-[#77995D] hover:text-[#5d7a47] font-bold text-center"
               >
                 <span className="block mb-2">Learn More About</span>
                 <span className="block text-xl">Our Features</span>
@@ -373,7 +373,7 @@ export default function Home() {
           <div className="text-center">
             <Button 
               variant="default" 
-              className="bg-[#0a2463] hover:bg-[#173681] text-white transition duration-300 transform hover:-translate-y-1 hover:shadow-md"
+              className="bg-[#77995D] hover:bg-[#5d7a47] text-white transition duration-300 transform hover:-translate-y-1 hover:shadow-md"
               asChild
             >
               <Link href="/programs">
@@ -421,7 +421,7 @@ export default function Home() {
           <Button 
             variant="default" 
             size="lg"
-            className="bg-[#0a2463] hover:bg-[#173681] text-white text-lg font-bold transition duration-300 transform hover:-translate-y-1 hover:shadow-md"
+            className="bg-[#77995D] hover:bg-[#5d7a47] text-white text-lg font-bold transition duration-300 transform hover:-translate-y-1 hover:shadow-md"
             asChild
           >
             <Link href="/contact">
