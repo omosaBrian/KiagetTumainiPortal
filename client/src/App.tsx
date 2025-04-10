@@ -1,35 +1,40 @@
 import { Switch, Route } from "wouter";
+import { queryClient } from "./lib/queryClient";
+import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
+import MainLayout from "./layouts/MainLayout";
 import Home from "@/pages/Home";
 import About from "@/pages/About";
+import Academics from "@/pages/Academics";
+import Campuses from "@/pages/Campuses";
+import NewsEvents from "@/pages/NewsEvents";
 import Contact from "@/pages/Contact";
 import Admissions from "@/pages/Admissions";
-import Campus from "@/pages/Campus";
-import Academics from "@/pages/Academics";
-import NewsEvents from "@/pages/NewsEvents";
 import NotFound from "@/pages/not-found";
-import Header from "@/components/layout/Header";
-import Footer from "@/components/layout/Footer";
+
+function Router() {
+  return (
+    <MainLayout>
+      <Switch>
+        <Route path="/" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/academics" component={Academics} />
+        <Route path="/campuses" component={Campuses} />
+        <Route path="/news-events" component={NewsEvents} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/admissions" component={Admissions} />
+        <Route component={NotFound} />
+      </Switch>
+    </MainLayout>
+  );
+}
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen">
-      <Header />
-      <main className="flex-grow pt-16">
-        <Switch>
-          <Route path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/admissions" component={Admissions} />
-          <Route path="/campus/:id" component={Campus} />
-          <Route path="/academics/:level" component={Academics} />
-          <Route path="/news-events" component={NewsEvents} />
-          <Route component={NotFound} />
-        </Switch>
-      </main>
-      <Footer />
+    <QueryClientProvider client={queryClient}>
+      <Router />
       <Toaster />
-    </div>
+    </QueryClientProvider>
   );
 }
 

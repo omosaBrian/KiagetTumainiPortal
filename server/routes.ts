@@ -1,109 +1,87 @@
-import type { Express } from "express";
+import type { Express, Request, Response } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
-import { insertApplicationSchema, insertInquirySchema } from "@shared/schema";
-import { z } from "zod";
 import { ZodError } from "zod";
+import { insertApplicantSchema, insertContactSchema } from "@shared/schema";
 import { fromZodError } from "zod-validation-error";
 
 export async function registerRoutes(app: Express): Promise<Server> {
-  // Health check route
-  app.get("/api/health", (_req, res) => {
-    res.json({ status: "ok" });
-  });
-
-  // Application submission route
-  app.post("/api/applications", async (req, res) => {
+  // Admissions application API endpoint
+  app.post("/api/admissions/apply", async (req: Request, res: Response) => {
     try {
-      const validatedData = insertApplicationSchema.parse(req.body);
-      const application = await storage.createApplication(validatedData);
+      const validatedData = insertApplicantSchema.parse(req.body);
+      const applicant = await storage.createApplicant(validatedData);
       res.status(201).json({
-        success: true,
         message: "Application submitted successfully",
-        data: application
+        data: applicant
       });
     } catch (error) {
       if (error instanceof ZodError) {
         const validationError = fromZodError(error);
         res.status(400).json({
-          success: false,
           message: "Validation error",
           errors: validationError.message
         });
       } else {
-        console.error("Application submission error:", error);
         res.status(500).json({
-          success: false,
-          message: "Failed to submit application"
+          message: "Internal server error"
         });
       }
     }
   });
 
-  // Get all applications (would be protected in a real application)
-  app.get("/api/applications", async (_req, res) => {
+  // Contact form API endpoint
+  app.post("/api/contact", async (req: Request, res: Response) => {
     try {
-      const applications = await storage.getAllApplications();
-      res.json({ 
-        success: true,
+      const validatedData = insertContactSchema.parse(req.body);
+      const message = await storage.createContactMessage(validatedData);
+      res.status(201).json({
+        message: "Message sent successfully",
+        data: message
+      });
+    } catch (error) {
+      if (error instanceof ZodError) {
+        const validationError = fromZodError(error);
+        res.status(400).json({
+          message: "Validation error",
+          errors: validationError.message
+        });
+      } else {
+        res.status(500).json({
+          message: "Internal server error"
+        });
+      }
+    }
+  });
+
+  // Get all applications (for admin purposes)
+  app.get("/api/admissions/applications", async (_req: Request, res: Response) => {
+    try {
+      const applications = await storage.getApplicants();
+      res.status(200).json({
         data: applications
       });
     } catch (error) {
-      console.error("Error fetching applications:", error);
       res.status(500).json({
-        success: false,
-        message: "Failed to retrieve applications"
+        message: "Internal server error"
       });
     }
   });
 
-  // Inquiry/Contact form submission
-  app.post("/api/inquiries", async (req, res) => {
+  // Get all contact messages (for admin purposes)
+  app.get("/api/contact/messages", async (_req: Request, res: Response) => {
     try {
-      const validatedData = insertInquirySchema.parse(req.body);
-      const inquiry = await storage.createInquiry(validatedData);
-      res.status(201).json({
-        success: true,
-        message: "Inquiry submitted successfully",
-        data: inquiry
+      const messages = await storage.getContactMessages();
+      res.status(200).json({
+        data: messages
       });
     } catch (error) {
-      if (error instanceof ZodError) {
-        const validationError = fromZodError(error);
-        res.status(400).json({
-          success: false, 
-          message: "Validation error",
-          errors: validationError.message
-        });
-      } else {
-        console.error("Inquiry submission error:", error);
-        res.status(500).json({
-          success: false,
-          message: "Failed to submit inquiry"
-        });
-      }
-    }
-  });
-
-  // Get news and events
-  app.get("/api/news-events", async (req, res) => {
-    try {
-      const type = req.query.type as string | undefined; // 'news', 'event', or undefined for all
-      const newsEvents = await storage.getNewsEvents(type);
-      res.json({
-        success: true,
-        data: newsEvents
-      });
-    } catch (error) {
-      console.error("Error fetching news/events:", error);
       res.status(500).json({
-        success: false,
-        message: "Failed to retrieve news and events"
+        message: "Internal server error"
       });
     }
   });
 
   const httpServer = createServer(app);
-
   return httpServer;
 }

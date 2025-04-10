@@ -2,78 +2,45 @@ import { pgTable, text, serial, integer, boolean, date, timestamp } from "drizzl
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod";
 
-// Users schema (for admin access)
-export const users = pgTable("users", {
+export const applicants = pgTable("applicants", {
   id: serial("id").primaryKey(),
-  username: text("username").notNull().unique(),
-  password: text("password").notNull(),
-});
-
-export const insertUserSchema = createInsertSchema(users).pick({
-  username: true,
-  password: true,
-});
-
-// Application schema (for student applications)
-export const applications = pgTable("applications", {
-  id: serial("id").primaryKey(),
-  firstName: text("first_name").notNull(),
-  lastName: text("last_name").notNull(),
-  email: text("email").notNull(),
-  phone: text("phone").notNull(),
-  applicationType: text("application_type").notNull(),
+  studentName: text("student_name").notNull(),
+  dateOfBirth: date("date_of_birth").notNull(),
+  gradeApplying: text("grade_applying").notNull(),
   previousSchool: text("previous_school").notNull(),
+  parentName: text("parent_name").notNull(),
+  parentPhone: text("parent_phone").notNull(),
+  parentEmail: text("parent_email").notNull(),
+  address: text("address").notNull(),
   additionalInfo: text("additional_info"),
+  applicationDate: timestamp("application_date").defaultNow(),
   status: text("status").default("pending").notNull(),
-  createdAt: timestamp("created_at").defaultNow().notNull(),
 });
 
-export const insertApplicationSchema = createInsertSchema(applications).omit({
-  id: true,
-  status: true,
-  createdAt: true,
-});
-
-// Contact/Inquiry schema
-export const inquiries = pgTable("inquiries", {
+export const contactMessages = pgTable("contact_messages", {
   id: serial("id").primaryKey(),
   name: text("name").notNull(),
   email: text("email").notNull(),
-  subject: text("subject").notNull(),
+  phone: text("phone").notNull(),
   message: text("message").notNull(),
-  createdAt: timestamp("created_at").defaultNow().notNull(),
+  createdAt: timestamp("created_at").defaultNow(),
+  responded: boolean("responded").default(false),
 });
 
-export const insertInquirySchema = createInsertSchema(inquiries).omit({
+export const insertApplicantSchema = createInsertSchema(applicants).omit({
+  id: true,
+  applicationDate: true,
+  status: true,
+});
+
+export const insertContactSchema = createInsertSchema(contactMessages).omit({
   id: true,
   createdAt: true,
+  responded: true,
 });
 
-// News/Events schema
-export const newsEvents = pgTable("news_events", {
-  id: serial("id").primaryKey(),
-  title: text("title").notNull(),
-  content: text("content").notNull(),
-  type: text("type").notNull(), // 'news' or 'event'
-  imageUrl: text("image_url"),
-  eventDate: date("event_date"), // Optional, only for events
-  createdAt: timestamp("created_at").defaultNow().notNull(),
-});
+export type InsertApplicant = z.infer<typeof insertApplicantSchema>;
+export type Applicant = typeof applicants.$inferSelect;
 
-export const insertNewsEventSchema = createInsertSchema(newsEvents).omit({
-  id: true,
-  createdAt: true,
-});
-
-// Type exports
-export type User = typeof users.$inferSelect;
-export type InsertUser = z.infer<typeof insertUserSchema>;
-
-export type Application = typeof applications.$inferSelect;
-export type InsertApplication = z.infer<typeof insertApplicationSchema>;
-
-export type Inquiry = typeof inquiries.$inferSelect;
-export type InsertInquiry = z.infer<typeof insertInquirySchema>;
-
-export type NewsEvent = typeof newsEvents.$inferSelect;
-export type InsertNewsEvent = z.infer<typeof insertNewsEventSchema>;
+export type InsertContact = z.infer<typeof insertContactSchema>;
+export type ContactMessage = typeof contactMessages.$inferSelect;
