@@ -21,7 +21,6 @@ export default function Header() {
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
     { name: "Academics", path: "/academics" },
-    { name: "Campuses", path: "/campuses" },
     { name: "News & Events", path: "/news-events" },
     { name: "Contact", path: "/contact" }
   ];
@@ -32,10 +31,10 @@ export default function Header() {
       <Link 
         href={path} 
         onClick={closeMenu}
-        className={`relative py-2 text-gray-700 hover:text-[#77995D] font-medium
+        className={`relative py-2 text-gray-700 hover:text-[#8FBC8F] font-medium
                    after:content-[''] after:absolute after:w-0 after:h-[2px] after:bottom-0 after:left-0 
-                   after:bg-[#d00000] after:transition-[width] after:duration-300 hover:after:w-full
-                   ${isActive ? 'text-[#77995D] after:w-full' : ''}`}
+                   after:bg-[#9B2226] after:transition-[width] after:duration-300 hover:after:w-full
+                   ${isActive ? 'text-[#8FBC8F] after:w-full' : ''}`}
       >
         {name}
       </Link>
@@ -46,9 +45,9 @@ export default function Header() {
     <header className="fixed w-full z-50 bg-white shadow-md">
       <div className="container mx-auto px-4 py-2 flex justify-between items-center">
         <div className="flex items-center">
-          <div className="mr-3 w-14 h-14 bg-[#77995D] rounded-full flex items-center justify-center text-white text-xl font-bold">TK</div>
+          <div className="mr-3 w-14 h-14 bg-[#8FBC8F] rounded-full flex items-center justify-center text-white text-xl font-bold">TK</div>
           <div>
-            <h1 className="text-[#77995D] font-['Playfair_Display'] font-bold text-xl md:text-2xl">Tumaini Kiage</h1>
+            <h1 className="text-[#8FBC8F] font-['Playfair_Display'] font-bold text-xl md:text-2xl">Tumaini Kiage</h1>
             <p className="text-gray-600 text-xs md:text-sm">Boys High School</p>
           </div>
         </div>

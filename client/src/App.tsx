@@ -6,7 +6,6 @@ import MainLayout from "./layouts/MainLayout";
 import Home from "@/pages/Home";
 import About from "@/pages/About";
 import Academics from "@/pages/Academics";
-import Campuses from "@/pages/Campuses";
 import NewsEvents from "@/pages/NewsEvents";
 import Contact from "@/pages/Contact";
 import Admissions from "@/pages/Admissions";
@@ -19,7 +18,6 @@ function Router() {
         <Route path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/academics" component={Academics} />
-        <Route path="/campuses" component={Campuses} />
         <Route path="/news-events" component={NewsEvents} />
         <Route path="/contact" component={Contact} />
         <Route path="/admissions" component={Admissions} />
