@@ -15,6 +15,7 @@ import FeatureCard from "@/components/FeatureCard";
 import AcademicStage from "@/components/AcademicStage";
 import ProgramCard from "@/components/ProgramCard";
 import NewsTab from "@/components/NewsTab";
+import EventCalendar from "@/components/EventCalendar";
 
 export default function Home() {
   return (
@@ -28,9 +29,9 @@ export default function Home() {
           <div className="flex flex-col md:flex-row gap-8 items-center">
             <div className="md:w-1/2">
               <img 
-                src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" 
+                src="https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/341797078_226240973226772_3641617051521046554_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=V2Jb-OVtRHwAYLLqKp1&_nc_ht=scontent.fnbo9-1.fna&oh=00_AV_uGd0AECN0C0Mk7Lny6A3ZlLMNmEOTzJ3-Fqn3ZNc1uA&oe=661F6177" 
                 alt="Tumaini Kiage Boys High School students in classroom" 
-                className="rounded-lg shadow-lg w-full h-auto"
+                className="rounded-lg shadow-lg w-full h-auto object-cover"
               />
             </div>
             
@@ -82,7 +83,14 @@ export default function Home() {
             Stay informed about our school's activities, achievements, and upcoming events.
           </p>
           
-          <NewsTab />
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
+            <div className="lg:col-span-2">
+              <NewsTab />
+            </div>
+            <div>
+              <EventCalendar />
+            </div>
+          </div>
           
           <div className="text-center">
             <Button 
