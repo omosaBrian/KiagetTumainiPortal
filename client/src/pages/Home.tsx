@@ -37,7 +37,7 @@ export default function Home() {
             
             <div className="md:w-1/2">
               <h2 className="text-3xl md:text-4xl font-['Playfair_Display'] font-bold text-[#77995D] mb-4">
-                Welcome to Tumaini Kiage Boys High School
+                Welcome to Kiage Tumaini Boys High School
               </h2>
               <div className="w-20 h-1 bg-[#d00000] mb-6"></div>
               <p className="text-gray-700 mb-6">

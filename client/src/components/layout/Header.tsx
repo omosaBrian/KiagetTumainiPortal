@@ -24,7 +24,6 @@ const Header = () => {
 
   const navLinks = [
     { name: 'About', path: '/about' },
-    { name: 'Campuses', path: '/campus/main' },
     { name: 'Academics', path: '/academics/senior' },
     { name: 'News & Events', path: '/news-events' },
     { name: 'Contact', path: '/contact' },
