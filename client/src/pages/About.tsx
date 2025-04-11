@@ -200,7 +200,6 @@ export default function About() {
                   <img src="https://web.facebook.com/photo/?fbid=1074103732678225&set=pb.100054232071372.-2207520000" alt="Dr. Kiage Joseph" className="w-16 h-16 rounded-full mx-auto mb-2" />
                   Dr. Kiage brings years of experience and expertise to our school's leadership.
                 </p>
-                </p>
               </div>
             </div>
           </div>
