@@ -1168,5 +1168,6 @@ export default function Academics() {
         </div>
       </section>
     </>
+
   );
 }
