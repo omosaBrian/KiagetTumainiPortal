@@ -634,7 +634,7 @@ export default function Academics() {
 }
 
             <AcademicStage
-              image="https://web.facebook.com/photo/?fbid=581407347010329&set=pb.100054232071372.-2207520000"
+              image="https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/474380329_1131024558715269_6300357879248411838_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeHa0R0AI-ryaNg_4zbA6C1NIdo8yyjk4K4h2jzLKOTgrjaKPHn1pf_GGGbyaj8EUunAuLaX5qz3oweqHw7X87eG&_nc_ohc=g8KXNEktlWkQ7kNvwFNbgEp&_nc_oc=AdmG8UfUPkfCp_6G2WMLajdjEHpUvvqwXtJx8L0Jzin-CXeKylzYlAMD8I4fAsxf45c&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=QuNmdrp_bOPK131gST2JUw&oh=00_AfFGX2zwbvfhPLfgHONQxMVAZXLX0aPmnHNlGzmx2TE7Aw&oe=67FEB481"
               title="Senior High School"
               ageRange="Ages 15 - 18 Years Old"
               description="Our senior program prepares students for KCSE examinations and higher education with specialized subjects and advanced learning."
@@ -642,7 +642,7 @@ export default function Academics() {
             />
             
             <AcademicStage
-              image="https://web.facebook.com/photo/?fbid=1950747975013792&set=pb.100054232071372.-2207520000"
+              image="https://scontent.fnbo13-1.fna.fbcdn.net/v/t1.6435-9/45288703_1950747978347125_3936876227352068096_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGoWCXCi7EGUO5qGeJ3OzYP9F6HSlbGIuf0XodKVsYi59JuSokirfcUilcWQVXRFkwOZPPTNHgWF6G6Ph2nRMVH&_nc_ohc=i4TTkTprKU8Q7kNvwH79dws&_nc_oc=AdnMjD4favbScjVrnC_blvngO3QnmUz8-uKYeqClzEZIdFkStYIcWXgeejbg_atr1LI&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=6rXXlp7WdNJsHiBVKgA1dA&oh=00_AfHpoe1EaOrET4RsnjfRlB0k9R3WoYKbI_d6YQUf9_fkEA&oe=682068A1"
               title="Boarding Facilities"
               ageRange="Ages 13 - 18 Years Old"
               description="Our boarding program provides a supportive community environment that fosters independence, discipline, and academic focus."
