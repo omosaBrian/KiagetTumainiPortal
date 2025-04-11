@@ -76,6 +76,23 @@ export default function Academics() {
           <div className="w-20 h-1 bg-[#ffc857] mx-auto mb-12"></div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <>
+              <AcademicStage
+                image="https://web.facebook.com/photo/?fbid=581407347010329&set=pb.100054232071372.-2207520000"
+                title="Senior High School"
+                ageRange="Ages 15 - 18 Years Old"
+                description="Our senior program prepares students for KCSE examinations and higher education with specialized subjects and advanced learning."
+                link="/academics/senior"
+              />
+              
+              <AcademicStage
+                image="https://web.facebook.com/photo/?fbid=1950747975013792&set=pb.100054232071372.-2207520000"
+                title="Boarding Facilities"
+                ageRange="Ages 13 - 18 Years Old"
+                description="Our boarding program provides a supportive community environment that fosters independence, discipline, and academic focus."
+                link="/academics/boarding"
+              />
+            </>
           </div>
         </div>
       </section>
