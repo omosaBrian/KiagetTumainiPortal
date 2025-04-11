@@ -336,7 +336,8 @@ export default function About() {
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <Button 
               variant="default" 
-              className="bg-[#ffc857] hover:bg-[#ffe09a] text-darkred font-bold" {/* Changed text color to dark red */}
+              className="bg-[#ffc857] hover:bg-[#ffe09a] text-darkred font-bold"
+              {/* Changed text color to dark red */}
               asChild
             >
               <Link href="/admissions">Apply for Admission</Link>
