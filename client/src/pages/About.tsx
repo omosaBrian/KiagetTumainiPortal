@@ -197,7 +197,7 @@ export default function About() {
                 <h3 className="text-xl font-bold text-darkred mb-1"> {/* Changed text color to dark red */}Dr. Kiage Joseph</h3>
                 <p className="text-gray-500 mb-4">Director</p>
                 <p className="text-gray-700 mb-4">
-                  
+
                 </p>
               </div>
             </div>
@@ -334,10 +334,10 @@ export default function About() {
           </p>
 
           <div className="flex flex-col md:flex-row gap-4 justify-center">
+            {/* Button with dark red text */}
             <Button 
               variant="default" 
               className="bg-[#ffc857] hover:bg-[#ffe09a] text-darkred font-bold"
-              {/* Changed text color to dark red */}
               asChild
             >
               <Link href="/admissions">Apply for Admission</Link>
