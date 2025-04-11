@@ -345,7 +345,7 @@ export default function About() {
 
             <Button 
               variant="outline" 
-              className="border-white text-white hover:bg-white hover:text-darkred" {/* Changed text color to dark red */}
+              className="border-white text-white hover:bg-white hover:text-darkred" /* Changed text color to dark red */
               asChild
             >
               <Link href="/contact">Contact Us</Link>
