@@ -150,10 +150,11 @@ export default function About() {
                 </div>
               </div>
               <div className="p-6 text-center">
-                <h3 className="text-xl font-bold text-darkred mb-1"> {/* Changed text color to dark red */}John Patrice, M.Ed</h3>
-                <p className="text-gray-500 mb-4">Principal</p>
+                <h3 className="text-xl font-bold text-darkred mb-1"> {/* Changed text color to dark red */}Dr. Kiage Joseph,Doctor of Philosophy,PhD</h3>
+                <p className="text-gray-500 mb-4">Director</p>
                 <p className="text-gray-700 mb-4">
-                  With over 25 years in education, Mr. Patrice brings extensive experience and visionary leadership to our school.
+                  <img src="https://web.facebook.com/photo/?fbid=1074103732678225&set=pb.100054232071372.-2207520000" alt="Dr. Kiage Joseph" className="w-16 h-16 rounded-full mx-auto mb-2" />
+                  Dr. Kiage brings years of experience and expertise to our school's leadership.
                 </p>
               </div>
             </div>
@@ -165,10 +166,10 @@ export default function About() {
                 </div>
               </div>
               <div className="p-6 text-center">
-                <h3 className="text-xl font-bold text-darkred mb-1"> {/* Changed text color to dark red */}Mary Omweri, BSc</h3>
-                <p className="text-gray-500 mb-4">Deputy Principal, Academics</p>
+                <h3 className="text-xl font-bold text-darkred mb-1"> {/* Changed text color to dark red */}Mr.Patrice,M.ED</h3>
+                <p className="text-gray-500 mb-4">Principal</p>
                 <p className="text-gray-700 mb-4">
-                  Mrs. Omweri oversees our academic programs and ensures excellence in curriculum delivery and student achievement.
+                  Mrs.Patrice provides leadership, direction, and coordination within the school, ensuring effective educational programs and promoting the improvement of teaching and learning.
                 </p>
               </div>
             </div>
@@ -194,11 +195,11 @@ export default function About() {
                 </div>
               </div>
               <div className="p-6 text-center">
-                <h3 className="text-xl font-bold text-darkred mb-1"> {/* Changed text color to dark red */}Dr. Kiage Joseph</h3>
-                <p className="text-gray-500 mb-4">Director</p>
+                <h3 className="text-xl font-bold text-darkred mb-1"> {/* Changed text color to dark red */}Mrs.Omweri</h3>
+                <p className="text-gray-500 mb-4">Deputy Principal, Academics</p>
                 <p className="text-gray-700 mb-4">
-                  <img src="https://web.facebook.com/photo/?fbid=1074103732678225&set=pb.100054232071372.-2207520000" alt="Dr. Kiage Joseph" className="w-16 h-16 rounded-full mx-auto mb-2" />
-                  Dr. Kiage brings years of experience and expertise to our school's leadership.
+                  <img src="https://web.facebook.com/photo/?fbid=1074103732678225&set=pb.100054232071372.-2207520000" alt="Mrs.Omweri" className="w-16 h-16 rounded-full mx-auto mb-2" />
+                  Mrs.Omweri brings years of experience and expertise to our school's leadership and excellence development.
                 </p>
               </div>
             </div>
@@ -224,7 +225,7 @@ export default function About() {
                 </li>
                 <li className="flex items-start">
                   <div className="bg-[#ffc857] rounded-full w-5 h-5 mt-1 mr-3"></div>
-                  <span>98% pass rate in the 2023 KCSE examinations</span>
+                  <span>98% pass rate in the 2022,2023,2024 KCSE examinations</span>
                 </li>
                 <li className="flex items-start">
                   <div className="bg-[#ffc857] rounded-full w-5 h-5 mt-1 mr-3"></div>
@@ -242,7 +243,7 @@ export default function About() {
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start">
                   <div className="bg-[#ffc857] rounded-full w-5 h-5 mt-1 mr-3"></div>
-                  <span>Regional champions in soccer for three consecutive years</span>
+                  <span>champions in soccer</span>
                 </li>
                 <li className="flex items-start">
                   <div className="bg-[#ffc857] rounded-full w-5 h-5 mt-1 mr-3"></div>
@@ -281,7 +282,7 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
             <div className="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
               <img 
-                src="https://images.unsplash.com/photo-1535982330050-f1c2fb79ff78?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80" 
+                src="https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/464477996_8534882456600278_362531598242551108_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeHQ1juip5VEyWePVHxJ_iq9nL3xlR-_ZZScvfGVH79llN8vwDTB8kFvnk1GhnbEZ_UGG2KQQqLaQtbx5kVd23W9&_nc_ohc=9kmsHumq21kQ7kNvwHMnlF-&_nc_oc=AdlCBE_SPHiawTNBL1Bt9bRe6O3KYxmX81z6ecGDoRvk-Tid_bD9nsOtGsWgXBbeZwQ&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=DqPWRdfETfdud_p_KlJhPw&oh=00_AfGOtUSXUbVrGJeNrQugEs1kXiM9xMqBUZT1pxLu_0h_Hg&oe=67FEEBAD" 
                 alt="Modern Classrooms" 
                 className="w-full h-48 object-cover"
               />
@@ -295,7 +296,7 @@ export default function About() {
 
             <div className="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
               <img 
-                src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80" 
+                src="https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/464689655_8563082183780305_8156267925309861272_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHL1VY0wDEQs9ii1n4gfrULaWFn1UmocOBpYWfVSahw4PJgBSTOhb_2aQMXCkTIZq3GUxDBW4x2BHKOrslf1Cxi&_nc_ohc=lYeoeszAKJkQ7kNvwFKDNtJ&_nc_oc=AdnfKsk3DzoYWpFY1Nya3UKaNT0McRNfkf0ESNlHTTXwu68V-cBPvhtYXY9Qj8ic1D0&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=3OowCcSOQPRXmb8_bWJ3bg&oh=00_AfHlmtp8jJXQiZ1hYlDILTvKNAZXIRRz0UYgLIGNqu1tnw&oe=67FEDC1B" 
                 alt="Science Laboratories" 
                 className="w-full h-48 object-cover"
               />
@@ -309,7 +310,7 @@ export default function About() {
 
             <div className="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
               <img 
-                src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80" 
+                src="https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/464207591_8534882223266968_5634401031224327264_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeENwKWz96ION-u-gD4BFYZKTv6dFNO0KeFO_p0U07Qp4c7huCiAsw0Fk1JPRq6oELfBXMkWy-V5XpDTQRjzOr0y&_nc_ohc=_KqVGiqAVCsQ7kNvwGyLRiv&_nc_oc=AdnqI68gD6jtWlq0cjkb5BXmt_ctEFIHTIoipTWizC1RuHW7mTKH6qaw3AZGTrnFUCE&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=34m2jX3JUWeUWioZDaE7CA&oh=00_AfHmDOQBLdgc9Jbt9hCd6BIrFyfEG9Tf1VbnyKvbsHMvhg&oe=67FEE8FB" 
                 alt="Sports Facilities" 
                 className="w-full h-48 object-cover"
               />
@@ -327,10 +328,10 @@ export default function About() {
       {/* Call To Action */}
       <section className="py-16 bg-darkred"> {/* Changed background color to dark red */}
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-['Playfair_Display'] font-bold text-white mb-4">
+          <h2 className="text-3xl font-['Playfair_Display'] font-bold text-darkred mb-4">
             Join Our School Community
           </h2>
-          <p className="text-white mb-8 max-w-2xl mx-auto"> {/* Changed text color to white */}
+          <p className="text-white mb-8 max-w-2xl mx-auto" style={{ backgroundColor: '#000', color: '#fff', padding: '10px', borderRadius: '5px', fontFamily: 'Arial' }}> {/* Changed text color to white */}
             Experience the excellence of Kiage Tumaini Boys High School. Apply now for admission or contact us to learn more.
           </p>
 

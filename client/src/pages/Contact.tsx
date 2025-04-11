@@ -255,7 +255,7 @@ export default function Contact() {
             <div className="rounded-lg overflow-hidden shadow-lg">
               <div className="aspect-w-16 aspect-h-9 bg-gray-200 h-96 flex items-center justify-center">
                 <p className="text-gray-700">
-                  Map of Tumaini Kiage Boys High School<br/>
+                  Map of Kiage Tumaini Boy's High School<br/>
                   (Google Maps integration would appear here)
                 </p>
               </div>
@@ -264,12 +264,12 @@ export default function Contact() {
             <div className="mt-8 bg-gray-50 p-6 rounded-lg">
               <h3 className="text-xl font-bold text-[#0a2463] mb-4">Getting Here</h3>
               <p className="text-gray-600 mb-2">
-                Tumaini Kiage Boys High School is located in Kitutu Chache South Sub County, Kisii County, 
+                Kiage Tumaini Boy's High School is located in Kitutu Chache South Sub County, Kisii County, 
                 approximately 10 kilometers from Kisii Town center.
               </p>
               <p className="text-gray-600">
-                <span className="font-medium">By Public Transport:</span> Take a matatu from Kisii Town to Kitutu Chache. 
-                The school is clearly marked with signage along the main road.
+                <span className="font-medium">By Public Transport:</span> Take a matatu from Kisii Town to Embassy,Nyamataro. 
+                The school is clearly marked with signage along the main Kisii-Kisumu road.
               </p>
             </div>
           </div>

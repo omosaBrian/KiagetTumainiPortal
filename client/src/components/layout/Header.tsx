@@ -37,7 +37,7 @@ const Header = () => {
             <div className="mr-4">
               <Link href="/" className="flex items-center">
                 <div className="bg-primary text-white p-2 rounded">
-                  <span className="font-heading font-bold">TKBHS</span>
+                  <span className="font-heading font-bold">KTBHS</span>
                 </div>
               </Link>
             </div>

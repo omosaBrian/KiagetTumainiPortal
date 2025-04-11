@@ -22,8 +22,8 @@ export default function HeroCarousel() {
 
   const slides: CarouselSlide[] = [
     {
-      image: "https://images.unsplash.com/photo-1613896640137-bb5b31496515?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=900&q=80",
-      title: "Tumaini Kiage Boys High School",
+      image: "https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/464433390_8534882219933635_2070690540360903588_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeEYUUzAXYTcylaAKURVPMTiyJdjbdgHzt3Il2Nt2AfO3ZD2PbxVxDoBnav63WvgilVibROPv3nVyujWTpSVWC_K&_nc_ohc=F5DP6_cU-jcQ7kNvwEfWeJR&_nc_oc=AdnBwTQ6z_uoEwhlGh67bOmjCryjR8X2WOH1-HufJlhNT01gzJyJ7CBIx1-lSxtj3yc&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=t03VcoQMfT6W8W9S8ehGmw&oh=00_AfHZiiX9dHpqLc1gGynEjV35T_AsHFa1-75qB7T81Tsr3A&oe=67FEBDD7",
+      title: "Kiage Tumaini Boy's High School",
       subtitle: "Private Boys High School in Kisii, Kenya",
       primaryButton: {
         text: "Book A Tour",
@@ -35,7 +35,7 @@ export default function HeroCarousel() {
       }
     },
     {
-      image: "https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=900&q=80",
+      image: "https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/474380329_1131024558715269_6300357879248411838_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeHa0R0AI-ryaNg_4zbA6C1NIdo8yyjk4K4h2jzLKOTgrjaKPHn1pf_GGGbyaj8EUunAuLaX5qz3oweqHw7X87eG&_nc_ohc=g8KXNEktlWkQ7kNvwFNbgEp&_nc_oc=AdmG8UfUPkfCp_6G2WMLajdjEHpUvvqwXtJx8L0Jzin-CXeKylzYlAMD8I4fAsxf45c&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=mc7i7u3vxF0gCZkUu4dwRw&oh=00_AfHbor_Amm2EDgUte4Li2kTK_A5p-e6vCyoKt6UhkBwdHg&oe=67FEECC1",
       title: "Excellence in Education",
       subtitle: "Preparing young men to excel academically and in life",
       primaryButton: {
@@ -44,7 +44,7 @@ export default function HeroCarousel() {
       }
     },
     {
-      image: "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=900&q=80",
+      image: "https://scontent.fnbo13-1.fna.fbcdn.net/v/t1.6435-9/45288703_1950747978347125_3936876227352068096_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGoWCXCi7EGUO5qGeJ3OzYP9F6HSlbGIuf0XodKVsYi59JuSokirfcUilcWQVXRFkwOZPPTNHgWF6G6Ph2nRMVH&_nc_ohc=i4TTkTprKU8Q7kNvwH79dws&_nc_oc=AdnMjD4favbScjVrnC_blvngO3QnmUz8-uKYeqClzEZIdFkStYIcWXgeejbg_atr1LI&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=fHwzLET6rHh2S-TgJ-0Tuw&oh=00_AfE1nVZno2F0Jvw1GZZgBpJbUT9uzKfAi-nNJbpuEkTywA&oe=6820A0E1",
       title: "Building Character",
       subtitle: "Developing young men of integrity, discipline, and leadership",
       primaryButton: {

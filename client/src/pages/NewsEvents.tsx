@@ -20,8 +20,8 @@ import { Badge } from "@/components/ui/badge";
 const newsItems = [
   {
     id: "news1",
-    image: "https://images.unsplash.com/photo-1513258496099-48168024aec0?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80",
-    date: "April 12, 2025",
+    image: "https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/464344009_8534882446600279_5882791894603496916_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeFJ-TBvVTZYjHVZPC6qThG09apqlIUBMsD1qmqUhQEywFGLJLnVXTaLYW3Pi8vmvCKYF6haeay_0G-XjL6cS-A3&_nc_ohc=cT-FeJXkXhQQ7kNvwGJo_Na&_nc_oc=AdmoypZGsBcMr6wA3y-_LNG4AE8_yrwpfLbE_l1iVlGoqJBw--Yj1aW1_rJ9fqjMxCc&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=x99haxRZXTdOqz6A7YX2Jw&oh=00_AfH9z1GH0qVtGRUxxUvroHJ_z1scMsYrV9zLS8EkMhanCA&oe=67FEE86C",
+    date: "April 12, 2024",
     author: "Admin",
     title: "Math Competition Winners",
     excerpt: "Our students took first place in the county-wide mathematics competition, demonstrating exceptional problem-solving skills.",
@@ -30,17 +30,17 @@ const newsItems = [
   },
   {
     id: "news2",
-    image: "https://images.unsplash.com/photo-1535982330050-f1c2fb79ff78?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80",
+    image: "https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/464270956_8534882233266967_862136308672317374_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeEoy7RTysyiGKbJcfQHSvNJoX8rjHuUlWChfyuMe5SVYDkp81A6FQJBf8eNR5H1b-F_ANe5VglGaJ9EhP8G6a9b&_nc_ohc=xqeqXkCAZIEQ7kNvwH5QfJQ&_nc_oc=AdkBgkkBSIR-SJwPw-aV0BzVHvfj_VsdFMzQLBpN8DJ6gsv2G6MQin7NQV9Rv5xZ0Xk&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=pfi19TZiTaX9PPYFH-0aag&oh=00_AfGU2bJLr-cflx81e-76H7JG0ygY3uWvnqtixezxuGAidg&oe=67FEEC2B",
     date: "March 28, 2025",
     author: "Principal",
-    title: "New Science Laboratory",
-    excerpt: "We are excited to announce the opening of our new state-of-the-art science laboratory, equipped with the latest technologies.",
+    title: "SPORTS EVENTS",
+    excerpt: "TERM 2 SECONDARY SCHOOL GAMES UPDATE.",
     category: "Facilities",
     slug: "/news-events/science-lab"
   },
   {
     id: "news3",
-    image: "https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80",
+    image: "https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/464728546_8563082407113616_4861900156731100576_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHVOY5avjHm--YLljaHrp4Kb33dreXDwkFvfd2t5cPCQUEVmrOgDsrqhnJ6dYaECMdeyNFGMqtSHYialr8eS3YO&_nc_ohc=zMrrGSO0PV8Q7kNvwE3b3HS&_nc_oc=Adlywp0YRWl3NT1naWpq7BEvW2jvxoBp9ICmZbJpoYPVnhVh8Fj2GOMP7J-PIpTKpeM&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=Wt_UvF-JCy4nl33UlITwiw&oh=00_AfGdD8WPHDuXWMihp25naSPwkpRHCUGVttdU3ow-3pscEg&oe=67FEEE1E",
     date: "March 15, 2025",
     author: "Department Head",
     title: "Inter-School Debate Competition",
@@ -50,7 +50,7 @@ const newsItems = [
   },
   {
     id: "news4",
-    image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80",
+    image: "https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/464207591_8534882223266968_5634401031224327264_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeENwKWz96ION-u-gD4BFYZKTv6dFNO0KeFO_p0U07Qp4c7huCiAsw0Fk1JPRq6oELfBXMkWy-V5XpDTQRjzOr0y&_nc_ohc=_KqVGiqAVCsQ7kNvwGyLRiv&_nc_oc=AdnqI68gD6jtWlq0cjkb5BXmt_ctEFIHTIoipTWizC1RuHW7mTKH6qaw3AZGTrnFUCE&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=34m2jX3JUWeUWioZDaE7CA&oh=00_AfHmDOQBLdgc9Jbt9hCd6BIrFyfEG9Tf1VbnyKvbsHMvhg&oe=67FEE8FB",
     date: "March 5, 2025",
     author: "Sports Department",
     title: "Soccer Team Advances to Regionals",
@@ -60,7 +60,7 @@ const newsItems = [
   },
   {
     id: "news5",
-    image: "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80",
+    image: "https://scontent-mba2-1.xx.fbcdn.net/v/t39.30808-6/485022893_1173333304484394_4550122321825830294_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeH0aXhGsIUdyZ-PzxcC_PpQBo_X877e11QGj9fzvt7XVCQbpRwlvvfjDbYFBmthsHH96WF9jHqOM7ECwSgHQufu&_nc_ohc=gNGoE5ujNzMQ7kNvwHDwbe_&_nc_oc=Adk1kGeAtRiyZI7ocgIS2t1OZlcGc3h47x7y9AYZYpXETchBKrkPeJ1qUFqEJp-B_jE&_nc_zt=23&_nc_ht=scontent-mba2-1.xx&_nc_gid=Y7DMr0lLQERONFK7vb4hmA&oh=00_AfHRWmIqexYcXhr5IZ9FJbrrW-iTt19V-AuVzYWYM_qnUw&oe=67FED9E4",
     date: "February 20, 2025",
     author: "Academic Board",
     title: "KCSE Results Announcement",
@@ -70,7 +70,7 @@ const newsItems = [
   },
   {
     id: "news6",
-    image: "https://images.unsplash.com/photo-1588075592446-265fd1e6e76f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOZwra6r2EZ7qvaNI1EWahbLzV2eF-Nd5mpw&s",
     date: "February 10, 2025",
     author: "Admin",
     title: "School Visit by Education Officials",
@@ -197,7 +197,7 @@ export default function NewsEvents() {
               News & Events
             </h1>
             <p className="text-gray-200 max-w-3xl mx-auto">
-              Stay updated with the latest happenings at Tumaini Kiage Boys High School.
+              Stay updated with the latest happenings at Kiage Tumaini Boy's High School.
             </p>
           </div>
         </div>
@@ -550,7 +550,7 @@ export default function NewsEvents() {
             Stay Updated with School News
           </h2>
           <p className="text-gray-200 mb-8 max-w-2xl mx-auto">
-            Subscribe to our newsletter to receive the latest news, events, and announcements from Tumaini Kiage Boys High School.
+            Subscribe to our newsletter to receive the latest news, events, and announcements from Kiage Tumaini Boy's High School.
           </p>
           
           <div className="max-w-md mx-auto">

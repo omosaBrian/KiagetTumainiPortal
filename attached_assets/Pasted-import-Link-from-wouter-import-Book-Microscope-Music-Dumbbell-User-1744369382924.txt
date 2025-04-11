@@ -41,7 +41,7 @@ export default function Academics() {
               </h2>
               <div className="w-20 h-1 bg-[#ffc857] mb-6"></div>
               <p className="text-gray-700 mb-6">
-                At Tumaini Kiage Boys High School, we believe that every student possesses unique talents and abilities. 
+                At Kiage Tumaini Boy's High School, we believe that every student possesses unique talents and abilities. 
                 Our educational approach focuses on nurturing these individual strengths while providing a strong 
                 foundation in academics, character development, and life skills.
               </p>

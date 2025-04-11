@@ -12,7 +12,7 @@ export default function Admissions() {
               Apply for Admission
             </h1>
             <p className="text-gray-200 max-w-2xl mx-auto">
-              Start your journey with Tumaini Kiage Boys High School. Our application process is designed to be straightforward and informative.
+              Start your journey with Kiage Tumaini Boy's High School. Our application process is designed to be straightforward and informative.
             </p>
           </div>
         </div>

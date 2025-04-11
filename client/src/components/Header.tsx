@@ -47,8 +47,8 @@ export default function Header() {
         <div className="flex items-center">
           <div className="mr-3 w-14 h-14 bg-[#8FBC8F] rounded-full flex items-center justify-center text-white text-xl font-bold">TK</div>
           <div>
-            <h1 className="text-[#8FBC8F] font-['Playfair_Display'] font-bold text-xl md:text-2xl">Tumaini Kiage</h1>
-            <p className="text-gray-600 text-xs md:text-sm">Boys High School</p>
+            <h1 className="text-[#8FBC8F] font-['Playfair_Display'] font-bold text-xl md:text-2xl">Kiage Tumaini</h1>
+            <p className="text-gray-600 text-xs md:text-sm">Boy's High School</p>
           </div>
         </div>
         

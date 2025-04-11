@@ -29,8 +29,8 @@ export default function Home() {
           <div className="flex flex-col md:flex-row gap-8 items-center">
             <div className="md:w-1/2">
               <img 
-                src="https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/341797078_226240973226772_3641617051521046554_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=V2Jb-OVtRHwAYLLqKp1&_nc_ht=scontent.fnbo9-1.fna&oh=00_AV_uGd0AECN0C0Mk7Lny6A3ZlLMNmEOTzJ3-Fqn3ZNc1uA&oe=661F6177" 
-                alt="Tumaini Kiage Boys High School students in classroom" 
+                src="https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/474380329_1131024558715269_6300357879248411838_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeHa0R0AI-ryaNg_4zbA6C1NIdo8yyjk4K4h2jzLKOTgrjaKPHn1pf_GGGbyaj8EUunAuLaX5qz3oweqHw7X87eG&_nc_ohc=g8KXNEktlWkQ7kNvwFNbgEp&_nc_oc=AdmG8UfUPkfCp_6G2WMLajdjEHpUvvqwXtJx8L0Jzin-CXeKylzYlAMD8I4fAsxf45c&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=QuNmdrp_bOPK131gST2JUw&oh=00_AfFGX2zwbvfhPLfgHONQxMVAZXLX0aPmnHNlGzmx2TE7Aw&oe=67FEB481" 
+                alt="Kiage Tumaini Boys High School students in classroom" 
                 className="rounded-lg shadow-lg w-full h-auto object-cover"
               />
             </div>
@@ -41,7 +41,7 @@ export default function Home() {
               </h2>
               <div className="w-20 h-1 bg-[#d00000] mb-6"></div>
               <p className="text-gray-700 mb-6">
-                Established in 1970, Tumaini Kiage Boys High School is a premier educational institution 
+                Established in 2005, Tumaini Kiage Boys High School is a premier educational institution 
                 located in Kitutu Chache South Sub County, Kisii County, in the Nyanza region of Kenya. 
                 Our school provides exceptional modern education with a comprehensive curriculum.
               </p>
@@ -110,27 +110,20 @@ export default function Home() {
       <section id="campuses" className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-['Playfair_Display'] font-bold text-[#77995D] text-center mb-4">
-            Our School Campuses
+            Our School
           </h2>
           <div className="w-20 h-1 bg-[#9B2226] mx-auto mb-6"></div>
           <p className="text-gray-600 text-center mb-12 max-w-3xl mx-auto">
-            Tumaini Kiage Boys High School educates our bright, young learners at our two expansive sites 
+            Kiage Tumaini Boys High School educates our bright, young learners at our expansive site 
             within Kisii County, Kenya.
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <CampusCard 
-              image="https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/341823444_193101323506797_8083534012366083741_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=mh6XQG56rQ8AYUo5wbk&_nc_ht=scontent.fnbo9-1.fna&oh=00_AV8s_R9lzGKKQlGi4v41IrD4B0-M86T1Bj4n9EqyxSKUaA&oe=661F9D69"
+              image="https://scontent.fnbo13-1.fna.fbcdn.net/v/t1.6435-9/45288703_1950747978347125_3936876227352068096_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGoWCXCi7EGUO5qGeJ3OzYP9F6HSlbGIuf0XodKVsYi59JuSokirfcUilcWQVXRFkwOZPPTNHgWF6G6Ph2nRMVH&_nc_ohc=i4TTkTprKU8Q7kNvwH79dws&_nc_oc=AdnMjD4favbScjVrnC_blvngO3QnmUz8-uKYeqClzEZIdFkStYIcWXgeejbg_atr1LI&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=6rXXlp7WdNJsHiBVKgA1dA&oh=00_AfHpoe1EaOrET4RsnjfRlB0k9R3WoYKbI_d6YQUf9_fkEA&oe=682068A1"
               title="Main Campus"
               description="Our flagship campus features modern classrooms, science laboratories, computer labs, extensive sports facilities, and comfortable boarding accommodations for our senior students."
               link="/campuses/main"
-            />
-            
-            <CampusCard 
-              image="https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/341823468_215969877739702_8957071033739650761_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=GY9jCiBCxU8AYenB2W2&_nc_ht=scontent.fnbo9-1.fna&oh=00_AV-MWDQZ3VxPPmbCgzMsLqCNlELfL7E1jBIrbCrGS1jyrw&oe=661EDDA2"
-              title="Annex Campus"
-              description="Our annex campus provides a focused learning environment for our junior students with dedicated facilities including library resources, arts studios, and recreational areas."
-              link="/campuses/annex"
             />
           </div>
         </div>
@@ -144,7 +137,7 @@ export default function Home() {
           </h2>
           <div className="w-20 h-1 bg-[#9B2226] mx-auto mb-6"></div>
           <p className="text-gray-600 text-center mb-12 max-w-3xl mx-auto">
-            Tumaini Kiage Boys High School provides a character-focused, values-driven education 
+            Kiage Tumaini Boys High School provides a character-focused, values-driven education 
             through a comprehensive educational program.
           </p>
           
@@ -194,8 +187,8 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="md:w-1/2">
               <img 
-                src="https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/341820055_1245120119403322_2398551268319491756_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=o0wkfCN1q1IAYcN4-rS&_nc_ht=scontent.fnbo9-1.fna&oh=00_AV_PsI9buhQfHzwG8yT8hU-7JL5EcpE-rXNzjjIw4VTNZw&oe=661ED4F3" 
-                alt="Kiage Tumaini Boys computer lab" 
+                src="https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/464809487_8563082190446971_4149192860917869296_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHFP3zx-4sENrSTCrjpHnvnnr9_ejv1i1Oev396O_WLU10msqqqFw8RtkXYo3kvIaUC6-RUhXZ8XLbwyOXzuvtU&_nc_ohc=Ly8xArjJJ5YQ7kNvwEmb9FS&_nc_oc=Adnv5uVBaNlbBni04KriHFVRm1MIN21DXibnTmP0TLFz_sCDhbLyGa3XXavkyJWt2qk&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=enircklNBFlYAS4V0PXZwA&oh=00_AfF9LKsbQfH6NAvJcE-OHH6tNpsuS-kc_XjSS6mI-HGY7w&oe=67FEE137"
+                alt="Kiage Tumaini Boys sciences lab" 
                 className="rounded-lg shadow-lg w-full h-auto object-cover"
               />
             </div>
@@ -230,7 +223,7 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <AcademicStage
-              image="https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/341857809_1197453341181863_4373756493240350989_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=RVTK9wgR-RMAX_TZ6gJ&_nc_ht=scontent.fnbo9-1.fna&oh=00_AV_wWRrLuDlEELWdtqUERk_N5tAUr_GgvEJzcwHVb-4PQA&oe=661F7B79"
+              image="https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/464633332_8563082597113597_420623009869146736_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFp_-Y9HoBPNey6f1lZ3t4MUTLHX1HaImpRMsdfUdoiak5c_cP59v1a2B2wnXHJmW7xMTOxcPVOhOOJwtf_oej1&_nc_ohc=mBTYOA3R3MoQ7kNvwG0ashp&_nc_oc=AdkU2WBbTodAciegGYpjERfOyKKEpn77RMqBOMaNxPEfOm4glRi8QATrU654jVZUC9o&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=uAbIGh7ZYV9LCw5YypU3uA&oh=00_AfH6DHzLKf1C1AqeVoCTrkAXPTmImsKrLMupqQKM6tGvXg&oe=67FEDAFC"
               title="Junior High School"
               ageRange="Ages 12 - 14 Years Old"
               description="Our junior program focuses on building a solid academic foundation while developing essential life skills and character values."
@@ -238,7 +231,7 @@ export default function Home() {
             />
             
             <AcademicStage
-              image="https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/341820055_239376838483254_5331905812865559238_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=RyOVyU2LrzIAYSs-DZk&_nc_ht=scontent.fnbo9-1.fna&oh=00_AV94eCBa6Q-nkU0lXV9jn0qgDdILOFtRYq9wMdBnz72y6w&oe=661EE6FA"
+              image="https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/464878085_8563082607113596_1846206771570893739_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEB8Ihh9qI90enxL6dWT1m4nSZLsbFuhXudJkuxsW6Fe8Vyhy1bHZ_aWvZmAyh6HuM-WPBYCThrVyhSZe1jHfFS&_nc_ohc=fTtNDs1S3KEQ7kNvwFPxh4g&_nc_oc=AdkLSr3qiRVn001Kt1Sc69joHMm1IE-Ls4F0XjOgOPpNovmvPqHzO_TDFN5YGsNZxkc&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=18ApiwAyd9-HSjeQ1TbgLw&oh=00_AfF2WmxOX8ZMazYRPMaHaHiPy110wD93gH0jJZuGyJX6PA&oe=67FEE34E"
               title="Senior High School"
               ageRange="Ages 15 - 18 Years Old"
               description="Our senior program prepares students for KCSE examinations and higher education with specialized subjects and advanced learning."
@@ -246,7 +239,7 @@ export default function Home() {
             />
             
             <AcademicStage
-              image="https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/341832257_939225400433356_7358555150658409773_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=8QBi5vweFa8AYKyU7Uh&_nc_ht=scontent.fnbo9-1.fna&oh=00_AV-v2kJ8A9FKAQGJWq2LwS5S-VJiB7bIW9UXQxsgLwC86A&oe=661F3FEB"
+              image="https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/464299870_8534882636600260_3927743441845293517_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeGSPd_x8BAVHI-GJrMlIJj8LstUW92TlCsuy1Rb3ZOUKxxE2jSe8N_hsxHyPT8aPTj0EUcWUUAhsiUVIghNAXt-&_nc_ohc=Nm8Xxzs47FwQ7kNvwF4rsSG&_nc_oc=AdlCuTQP6Fxntj3jgEvw6jfLRr9eCiGwZBZNYPJX2DKn0wAoZRp52gf0KYOAGLGQu50&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=E6WouMmYxz9RSzk9fcwtgQ&oh=00_AfELqESH_LemOQV28b2ZW4_pcfTYvSsyviWd5JP8CCZJTg&oe=67FEBD8F"
               title="Boarding Facilities"
               ageRange="Ages 13 - 18 Years Old"
               description="Our boarding program provides a supportive community environment that fosters independence, discipline, and academic focus."
@@ -348,7 +341,7 @@ export default function Home() {
           </h2>
           <div className="w-20 h-1 bg-[#9B2226] mx-auto mb-6"></div>
           <p className="text-gray-600 text-center mb-12 max-w-3xl mx-auto">
-            As a member of the Kenya Secondary Schools Association, Tumaini Kiage Boys High School is committed 
+            As a member of the Kenya Secondary Schools Association, Kiage Tumaini Boy's High School is committed 
             to providing a modern, forward-looking education while remaining anchored in the culture and 
             traditions of Kenya and actively participating in the local community.
           </p>
@@ -357,21 +350,21 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <ProgramCard
-              image="https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/341737343_942228923568752_8977228467545954242_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=wJsRLUQoOVEAYNgqmkW&_nc_ht=scontent.fnbo9-1.fna&oh=00_AV-1JUFFsIbh04Ug3Tzo2DBEI8TRaXwcRctjCGTpspXk7g&oe=661F7D62"
-              title="Technology In Education"
-              description="Integrating the latest educational technologies to enhance learning and prepare students for the digital age."
+              image="https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/464907002_8563082593780264_8063665135507507167_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGR28qjBixxbMj6bn5XWZQfnPAYouHMAzGc8Bii4cwDMdZbV8uXHfq0QC1_XTWcYOTUdMfiAdQzgZ3E8jq4B7F-&_nc_ohc=OxPJqx8v6IAQ7kNvwFCWhFq&_nc_oc=AdkvVSM_0spYNQpLJqlFqaEtpNxgQnlDcb2CAyf5i32Lak7G1mGmX75RFi-tSbVdFBU&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=c0t_BcLaTwKcGU237L-Nmw&oh=00_AfGCzq5pOESuqWiRHB1HBiXyTPg-goAqiQckoP1D38xMHA&oe=67FEDE26"
+              title="Real World Experiences In Education"
+              description="Integrating the latest educational trends to enhance learning and prepare students for the real world."
               link="/programs/technology"
             />
             
             <ProgramCard
-              image="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80"
-              title="University Counselling"
+              image="https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/464525981_8534882946600229_7951063959042981708_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeH3-f-N9U31Ks5xPMN7O0ZXuc7YcUqA9ve5zthxSoD293Jj8DHzcg61zyEi2AFIh7DqLrM21unqo6p-V754bhWD&_nc_ohc=ICjci0bScMoQ7kNvwGaNpmo&_nc_oc=AdkfH-7dL89Ng-jKGH0Ew_hXYnFwcudnYZsxcqU-FS1Dj2vxKjeBdzHiG4REWE9lmX8&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=btt4NwtdQRRB2pNs-T18lw&oh=00_AfHexNYOew_gvsN5_UXxEJOgEFW-TLsGBBmhkMQg9C46uw&oe=67FED488"
+              title="Educational Guidance and Counseling"
               description="Personalized guidance for students to help them make informed decisions about their higher education paths."
               link="/programs/counselling"
             />
             
             <ProgramCard
-              image="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80"
+              image="https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/464286188_8534882649933592_8482634410588830661_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeGlNMLew8yZG1a150ad7LUGzlKBwfyJZkzOUoHB_IlmTLirPAi6O46vi18DQa9IR1NaQujGIB6giV61Z6u3XbMZ&_nc_ohc=g-xaMqwNWkIQ7kNvwH_Mzqj&_nc_oc=AdmQhY1pWUPmD-Rpf_2Nwa0Sd5IPW5kd-e9TNLeOsbknzFRg1oWG7Hg2_1zZG5L561s&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=sCWVo7dfatdDG11jk6LsAg&oh=00_AfF1gtfdXpf0zbjmWGIBxh6v2gSFwwb8iiFg2PW4A1nakg&oe=67FEE5DF"
               title="Access To Top Universities"
               description="Building pathways for our graduates to attend prestigious universities locally and internationally."
               link="/programs/universities"

@@ -38,7 +38,7 @@ export default function Campuses() {
           </h2>
           <div className="w-20 h-1 bg-[#ffc857] mx-auto mb-6"></div>
           <p className="text-gray-700 text-center mb-12 max-w-3xl mx-auto">
-            Tumaini Kiage Boys High School educates our bright, young learners at our two expansive sites 
+            Kiage Tumaini Boy's High School educates our bright, young learners at our two expansive sites 
             within Kisii County, Kenya. Each campus is designed to provide a conducive environment for 
             learning, personal growth, and holistic development.
           </p>
@@ -53,7 +53,7 @@ export default function Campuses() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
                 <div>
                   <img 
-                    src="https://images.unsplash.com/photo-1543505298-b8be9b52a21a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" 
+                    src="https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/464293514_8534882926600231_1725862400436052152_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeFhgGFWa72y4JzI6OKcmyZO6XmT0jVFEK_peZPSNUUQr1iL5Mw-U8bkylkY6k8G13M8ocKVYLQ36qO7PcpKsELA&_nc_ohc=rZhA-MbwYS0Q7kNvwHy5-ZV&_nc_oc=AdnOWmWcJFH8HtM-vuUKSawvbYP1jgdeOyzLMqTdCiwPwNshi3fDMes7WATsiE-y23U&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=6D9acsdMJZ-pWxgt-XNx5w&oh=00_AfGiKmI07q5c1VvdlgJzvFiYbbw9x-3qlHyrq2Zm-tT2Ww&oe=67FEFDE3" 
                     alt="Main Campus" 
                     className="rounded-lg shadow-lg w-full h-auto mb-6"
                   />
@@ -86,7 +86,7 @@ export default function Campuses() {
                 <div>
                   <h3 className="text-2xl font-['Playfair_Display'] font-bold text-[#0a2463] mb-4">Main Campus Facilities</h3>
                   <p className="text-gray-700 mb-6">
-                    Our flagship campus spans over 20 acres and houses our senior students (Form 3 and Form 4), 
+                    Our flagship campus houses our students (Forms 1,2,3 and Form 4), 
                     as well as administrative offices. The campus features modern facilities designed to provide 
                     a comprehensive learning and living environment.
                   </p>
@@ -113,7 +113,7 @@ export default function Campuses() {
                       <div>
                         <h4 className="text-lg font-bold text-[#0a2463] mb-1">Boarding Facilities</h4>
                         <p className="text-gray-700">
-                          Six dormitory blocks with capacity for 800 students, modern sanitation facilities, 
+                          Our dormitory blocks with capacity for 500+ students, modern sanitation facilities, 
                           common rooms with recreational amenities, and staff housing for boarding masters.
                         </p>
                       </div>
@@ -126,7 +126,7 @@ export default function Campuses() {
                       <div>
                         <h4 className="text-lg font-bold text-[#0a2463] mb-1">Sports & Recreation</h4>
                         <p className="text-gray-700">
-                          Two soccer fields, basketball and volleyball courts, athletic track, 
+                          A soccer field, basketball and volleyball courts,an external athletic track, 
                           indoor games facilities, and well-maintained recreation areas.
                         </p>
                       </div>

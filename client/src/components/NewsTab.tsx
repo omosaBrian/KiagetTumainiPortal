@@ -29,23 +29,23 @@ export default function NewsTab() {
   const newsItems: NewsItem[] = [
     {
       id: "news1",
-      image: "https://images.unsplash.com/photo-1513258496099-48168024aec0?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80",
-      date: "April 12, 2025",
+      image: "https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/464344009_8534882446600279_5882791894603496916_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeFJ-TBvVTZYjHVZPC6qThG09apqlIUBMsD1qmqUhQEywFGLJLnVXTaLYW3Pi8vmvCKYF6haeay_0G-XjL6cS-A3&_nc_ohc=cT-FeJXkXhQQ7kNvwGJo_Na&_nc_oc=AdmoypZGsBcMr6wA3y-_LNG4AE8_yrwpfLbE_l1iVlGoqJBw--Yj1aW1_rJ9fqjMxCc&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=AhGvInVEsZx_4ya-IAsEpQ&oh=00_AfFNF3q583ocmmwS3C5qyQCplG6x6jYarCPa-7BqVf4mnw&oe=67FEE86C",
+      date: "April 12, 2024",
       title: "Math Competition Winners",
       excerpt: "Our students took first place in the county-wide mathematics competition, demonstrating exceptional problem-solving skills.",
       slug: "/news-events/math-competition"
     },
     {
       id: "news2",
-      image: "https://images.unsplash.com/photo-1535982330050-f1c2fb79ff78?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80",
+      image: "https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/464207591_8534882223266968_5634401031224327264_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeENwKWz96ION-u-gD4BFYZKTv6dFNO0KeFO_p0U07Qp4c7huCiAsw0Fk1JPRq6oELfBXMkWy-V5XpDTQRjzOr0y&_nc_ohc=_KqVGiqAVCsQ7kNvwGyLRiv&_nc_oc=AdnqI68gD6jtWlq0cjkb5BXmt_ctEFIHTIoipTWizC1RuHW7mTKH6qaw3AZGTrnFUCE&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=h7AZxVSdG6wHyOEXO3v9fw&oh=00_AfHMHXnHWgW3t1I_U4SFkAYXBnJznH0DHoe3cDtGDQCY6w&oe=67FEE8FB",
       date: "March 28, 2025",
-      title: "New Science Laboratory",
-      excerpt: "We are excited to announce the opening of our new state-of-the-art science laboratory, equipped with the latest technologies.",
+      title: "TERM TWO SECONDARY SCHOOL SPORTS EVENTS",
+      excerpt: "We are excited to announce we will be participating in the 2025 National Secondary School Sports Competition Term 2..",
       slug: "/news-events/science-lab"
     },
     {
       id: "news3",
-      image: "https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80",
+      image: "https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/464207497_8534882236600300_2460176837166733438_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeEWLX5YdZL0RFeTXRFITGqU_Hvfm7SFAYD8e9-btIUBgGgUbHwe4qna_8M6RRHy_c3tQDAxpfmAqlXFJkzqICe9&_nc_ohc=PqWbZVv_7e8Q7kNvwF6gcjr&_nc_oc=Adl6vHPDtUmzI1H5Mjk4Q-3PuEHViF32y6RUaKqD68dd_IQtf3kBCSgkc-fj5BlY8FU&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=h7AZxVSdG6wHyOEXO3v9fw&oh=00_AfHMxzUncufwazOB9KGbLUhbhp_IoadNuUEhEbipaKZTxw&oe=67FF05BE",
       date: "March 15, 2025",
       title: "Inter-School Debate Competition",
       excerpt: "Our debate team showcased impressive critical thinking and public speaking skills at the regional debate competition.",

@@ -12,11 +12,11 @@ export default function Footer() {
             <div className="flex items-center mb-4">
               <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center text-[#0a2463] font-bold text-xl mr-3">TK</div>
               <div>
-                <h3 className="font-['Playfair_Display'] font-bold text-xl">Tumaini Kiage</h3>
-                <p className="text-gray-300 text-sm">Boys High School</p>
+                <h3 className="font-['Playfair_Display'] font-bold text-xl">Kiage Tumaini</h3>
+                <p className="text-gray-300 text-sm">Boy's High School</p>
               </div>
             </div>
-            <p className="text-gray-300 mb-4">A premier educational institution in Kisii County providing exceptional education since 1970.</p>
+            <p className="text-gray-300 mb-4">A premier educational institution in Kisii County providing exceptional education since 2005.</p>
             <div className="flex space-x-4">
               <a href="#" className="text-white hover:text-[#ffc857] transition-colors duration-300">
                 <Facebook size={18} />
@@ -92,7 +92,7 @@ export default function Footer() {
         
         <div className="border-t border-gray-700 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 text-sm mb-4 md:mb-0">&copy; {new Date().getFullYear()} Tumaini Kiage Boys High School. All rights reserved.</p>
+            <p className="text-gray-400 text-sm mb-4 md:mb-0">&copy; {new Date().getFullYear()} Kiage Tumaini Boy's High School. All rights reserved.</p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">Privacy Policy</a>
               <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">Terms of Service</a>

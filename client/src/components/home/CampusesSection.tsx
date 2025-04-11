@@ -4,13 +4,13 @@ const campuses = [
   {
     id: 'main',
     name: 'Main Campus',
-    image: 'https://images.unsplash.com/photo-1543505298-b8be9b52a21a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80',
+    image: 'https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/299172793_581407337010330_517400459563407425_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHgLBwFUP1aShtirHL7gWdNZ0F03qHkThdnQXTeoeROF_yvBU82sz5q5Q2bsmb9X9gI-wTsaK3t8Mbv6hwWPkPb&_nc_ohc=nvkFr2t4KOIQ7kNvwGGpQ4S&_nc_oc=AdndJbEeM-G5EJLPUgYbHME0XOx0SwlVeK71REDPArzxbTgPeqmQKhRoQSw0CmY6t8g&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=tul-xrStWqqruPKJQTq4WA&oh=00_AfHDGVA5-ZGLlW3cA_k3F71ZWC3wvN-nzw7fvUyAVQpaRQ&oe=67FEEC66',
     description: 'Our main campus features modern classrooms, science laboratories, and extensive sports facilities to support our comprehensive educational approach.'
   },
   {
     id: 'annex',
-    name: 'Annex Campus',
-    image: 'https://images.unsplash.com/photo-1604134967494-8a9ed3adea0d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80',
+    name: 'tuition Campus',
+    image: 'https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/464464819_8538625366225987_8631993693029559043_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeENfKjaQlsmvDZopBJp2_XuNwaEKK6EKfQ3BoQoroQp9E0b894JcVXBy5YTE17jZyuRH43ryJwc6j2gaPi-adfy&_nc_ohc=TwmS45G4RCMQ7kNvwE6VvAv&_nc_oc=Adnr_cWiMeR_R9LH_0KJEqNmkNRhv18CBwBvgfAVX7A0kF7lUw4GZn_nMoImQP-F8Sk&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=y0peO_O1K0QsiMVN9ivu1g&oh=00_AfHfWtCm91cVcYr21obfk5IGQ8FC_b7cYTC-JpgPUPAllA&oe=67FEDFE2',
     description: 'Our Annex campus provides additional learning spaces, boarding facilities, and specialized resources for junior students in a nurturing environment.'
   }
 ];
@@ -22,7 +22,7 @@ const CampusesSection = () => {
         <h2 className="section-heading text-center">Our School Campuses</h2>
         <div className="section-divider mx-auto"></div>
         <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
-          Tumaini Kiage Boys High School educates our bright, young learners at our two expansive sites within Kisii County, Kenya.
+          Kiage Tumaini Boys High School educates our bright, young learners at our two expansive sites within Kisii County, Kenya.
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">

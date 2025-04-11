@@ -41,7 +41,7 @@ export default function Academics() {
               </h2>
               <div className="w-20 h-1 bg-[#ffc857] mb-6"></div>
               <p className="text-gray-700 mb-6">
-                At Tumaini Kiage Boys High School, we believe that every student possesses unique talents and abilities. 
+                At Kiage Tumaini Boy's High School, we believe that every student possesses unique talents and abilities. 
                 Our educational approach focuses on nurturing these individual strengths while providing a strong 
                 foundation in academics, character development, and life skills.
               </p>
@@ -58,7 +58,7 @@ export default function Academics() {
 
             <div className="md:w-1/2">
               <img 
-                src="https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" 
+                src="https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/464338124_8538992049522652_1531048750740679129_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGFUcWOiRdbhiOwTaqXtyOXcbN5ZfRDB2xxs3ll9EMHbDK9v9JuW5fudBD4PZuGeuqjFy8WzYNQHr5hGL_LZMmJ&_nc_ohc=75F8oYj4i1AQ7kNvwHd8SqI&_nc_oc=Adnb1fVHsErxysQPjANwzf9N49gLDoPCQNawhqNzHmfltgLgfVnt27LhYO39XXOBixU&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=1-UH_yrIa5iYKbdQKOqpDw&oh=00_AfH2C6oXTzpk7ZlU0lOvb43Bp15ABz6KbnDl_PuNamW6Lg&oe=67FED225" 
                 alt="Students in classroom discussion" 
                 className="rounded-lg shadow-lg w-full h-auto"
               />
@@ -77,7 +77,7 @@ export default function Academics() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <AcademicStage
-              image="https://images.unsplash.com/photo-1629872430082-93d8912bece9?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=380&q=80"
+              image="https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/464333366_8534882449933612_7210426615662670934_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeEAtEUc3d6xomjQDR3xWkXWDszb_-Ut-eoOzNv_5S356jEUrDZVN7nO_QEKfgDhib4dv5IeL4cciT4lymm4bR22&_nc_ohc=ZXMx_RRrI4EQ7kNvwH5VKbo&_nc_oc=AdlbMT26wlGCJIAQnb-Nvgkxx-Z64YKwF0QOpeY4A8NAcC6TLsOsMlq7IJwwxRUuidU&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=Ubug6R5OGnREvVr1LHsGuA&oh=00_AfGO22JB-HTnnRlUdHFOE-n2aCqZBwREfCkFfJYT-I0Z8w&oe=67FEDAE9"
               title="Junior High School"
               ageRange="Ages 12 - 14 Years Old"
               description="Our junior program focuses on building a solid academic foundation while developing essential life skills and character values."
@@ -85,7 +85,7 @@ export default function Academics() {
             />
 
             <AcademicStage
-              image="https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=380&q=80"
+              image="https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/464344009_8534882446600279_5882791894603496916_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeFJ-TBvVTZYjHVZPC6qThG09apqlIUBMsD1qmqUhQEywFGLJLnVXTaLYW3Pi8vmvCKYF6haeay_0G-XjL6cS-A3&_nc_ohc=cT-FeJXkXhQQ7kNvwGJo_Na&_nc_oc=AdmoypZGsBcMr6wA3y-_LNG4AE8_yrwpfLbE_l1iVlGoqJBw--Yj1aW1_rJ9fqjMxCc&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=dtugf6z4OexkEfMWNqkzxg&oh=00_AfE_BH6M_EguHrZPw8ryJBLWH5zwRsRoIcufrMvuNGhsZg&oe=67FEE86C"
               title="Senior High School"
               ageRange="Ages 15 - 18 Years Old"
               description="Our senior program prepares students for KCSE examinations and higher education with specialized subjects and advanced learning."
@@ -93,7 +93,7 @@ export default function Academics() {
             />
 
             <AcademicStage
-              image="https://images.unsplash.com/photo-1604761773777-95d3a2dd2348?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=380&q=80"
+              image="https://scontent.fnbo13-1.fna.fbcdn.net/v/t39.30808-6/464433390_8534882219933635_2070690540360903588_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeEYUUzAXYTcylaAKURVPMTiyJdjbdgHzt3Il2Nt2AfO3ZD2PbxVxDoBnav63WvgilVibROPv3nVyujWTpSVWC_K&_nc_ohc=F5DP6_cU-jcQ7kNvwEfWeJR&_nc_oc=AdnBwTQ6z_uoEwhlGh67bOmjCryjR8X2WOH1-HufJlhNT01gzJyJ7CBIx1-lSxtj3yc&_nc_zt=23&_nc_ht=scontent.fnbo13-1.fna&_nc_gid=t03VcoQMfT6W8W9S8ehGmw&oh=00_AfHZiiX9dHpqLc1gGynEjV35T_AsHFa1-75qB7T81Tsr3A&oe=67FEBDD7"
               title="Boarding Facilities"
               ageRange="Ages 13 - 18 Years Old"
               description="Our boarding program provides a supportive community environment that fosters independence, discipline, and academic focus."
