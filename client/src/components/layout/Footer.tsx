@@ -33,7 +33,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* School Info */}
           <div>
-            <h3 className="text-xl font-bold font-heading text-white mb-6">Tumaini Kiage Boys High School</h3>
+            <h3 className="text-xl font-bold font-heading text-white mb-6">Kiage Tumaini Boys High School</h3>
             <p className="mb-6">A premier educational institution providing exceptional modern education with a comprehensive curriculum.</p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-secondary transition">
