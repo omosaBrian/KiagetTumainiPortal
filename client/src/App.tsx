@@ -9,6 +9,7 @@ import Academics from "@/pages/Academics";
 import NewsEvents from "@/pages/NewsEvents";
 import Contact from "@/pages/Contact";
 import Admissions from "@/pages/Admissions";
+import NotFound from "@/pages/not-found";
 
 
 function Router() {
