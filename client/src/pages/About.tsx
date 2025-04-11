@@ -30,7 +30,7 @@ export default function About() {
               </h2>
               <div className="w-20 h-1 bg-[#ffc857] mb-6"></div>
               <p className="text-gray-700 mb-6">
-                Established in 1970, Kiage Tumaini Boys High School has grown from humble beginnings to become one of the most respected educational institutions in Kisii County, Kenya. The school was founded with a vision to provide quality education that develops young men intellectually, physically, and morally.
+                Established in 2005, Kiage Tumaini Boys High School has grown from humble beginnings to become one of the most respected educational institutions in Kenya. The school was founded with a vision to provide quality education that develops young men intellectually, physically, and morally.
               </p>
               <p className="text-gray-700 mb-6">
                 Over the decades, our school has expanded its facilities, enhanced its curriculum, and strengthened its teaching staff to maintain educational excellence. What began as a small community school has evolved into a comprehensive educational institution serving over a thousand students from diverse backgrounds across the region.
@@ -42,7 +42,7 @@ export default function About() {
 
             <div className="md:w-1/2">
               <img 
-                src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" 
+                src="https://web.facebook.com/photo/?fbid=581407350343662&set=a.581407310343666" 
                 alt="Kiage Tumaini Boys High School historic building" 
                 className="rounded-lg shadow-lg w-full h-auto"
               />
@@ -197,7 +197,9 @@ export default function About() {
                 <h3 className="text-xl font-bold text-darkred mb-1"> {/* Changed text color to dark red */}Dr. Kiage Joseph</h3>
                 <p className="text-gray-500 mb-4">Director</p>
                 <p className="text-gray-700 mb-4">
-
+                  <img src="https://web.facebook.com/photo/?fbid=1074103732678225&set=pb.100054232071372.-2207520000" alt="Dr. Kiage Joseph" className="w-16 h-16 rounded-full mx-auto mb-2" />
+                  Dr. Kiage brings years of experience and expertise to our school's leadership.
+                </p>
                 </p>
               </div>
             </div>
@@ -320,7 +322,7 @@ export default function About() {
               </div>
             </div>
           </div>
-          </div>
+        </div>
       </section>
 
       {/* Call To Action */}
