@@ -5,12 +5,12 @@ import { Button } from "@/components/ui/button";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#0a2463] text-white pt-12 pb-6">
+    <footer className="bg-[#ff0000] text-white pt-12 pb-6"> {/* Changed background color to red */}
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <div>
             <div className="flex items-center mb-4">
-              <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center text-[#0a2463] font-bold text-xl mr-3">TK</div>
+              <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center text-[#ff0000] font-bold text-xl mr-3">TK</div> {/* Changed text color to red */}
               <div>
                 <h3 className="font-['Playfair_Display'] font-bold text-xl">Kiage Tumaini</h3>
                 <p className="text-gray-300 text-sm">Boy's High School</p>
@@ -18,21 +18,21 @@ export default function Footer() {
             </div>
             <p className="text-gray-300 mb-4">A premier educational institution in Kisii County providing exceptional education since 2005.</p>
             <div className="flex space-x-4">
-              <a href="#" className="text-white hover:text-[#ffc857] transition-colors duration-300">
+              <a href="#" className="text-white hover:text-[#ff9999] transition-colors duration-300"> {/* Changed hover color to red */}
                 <Facebook size={18} />
               </a>
-              <a href="#" className="text-white hover:text-[#ffc857] transition-colors duration-300">
+              <a href="#" className="text-white hover:text-[#ff9999] transition-colors duration-300"> {/* Changed hover color to red */}
                 <Twitter size={18} />
               </a>
-              <a href="#" className="text-white hover:text-[#ffc857] transition-colors duration-300">
+              <a href="#" className="text-white hover:text-[#ff9999] transition-colors duration-300"> {/* Changed hover color to red */}
                 <Instagram size={18} />
               </a>
-              <a href="#" className="text-white hover:text-[#ffc857] transition-colors duration-300">
+              <a href="#" className="text-white hover:text-[#ff9999] transition-colors duration-300"> {/* Changed hover color to red */}
                 <Youtube size={18} />
               </a>
             </div>
           </div>
-          
+
           <div>
             <h3 className="text-xl font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2">
@@ -45,7 +45,7 @@ export default function Footer() {
               <li><Link href="/contact" className="text-gray-300 hover:text-white transition-colors duration-300">Contact Us</Link></li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-xl font-bold mb-4">Contact Information</h3>
             <ul className="space-y-3">
@@ -67,7 +67,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-xl font-bold mb-4">Newsletter</h3>
             <p className="text-gray-300 mb-4">Subscribe to our newsletter for the latest news and updates.</p>
@@ -89,7 +89,7 @@ export default function Footer() {
             <p className="text-sm text-gray-400">We respect your privacy and will never share your information.</p>
           </div>
         </div>
-        
+
         <div className="border-t border-gray-700 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm mb-4 md:mb-0">&copy; {new Date().getFullYear()} Kiage Tumaini Boy's High School. All rights reserved.</p>
