@@ -84,17 +84,18 @@ export default function HeroCarousel() {
                 alt={slide.title} 
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-                <div className="text-center px-4">
-                  {index === 0 && <p className="text-white text-xl md:text-2xl mb-2">Welcome to</p>}
-                  <h1 className="text-white font-['Playfair_Display'] font-bold text-4xl md:text-6xl mb-4">{slide.title}</h1>
-                  <p className="text-white text-lg md:text-xl mb-8">{slide.subtitle}</p>
-                  <div className="flex flex-col md:flex-row justify-center gap-4">
+              <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70 flex items-center justify-center">
+                <div className="text-center px-4 max-w-4xl">
+                  {index === 0 && <p className="text-white/90 text-xl md:text-2xl mb-3 tracking-wide">Welcome to</p>}
+                  <h1 className="text-white font-['Playfair_Display'] font-bold text-4xl md:text-6xl mb-6 drop-shadow-lg">{slide.title}</h1>
+                  <p className="text-white/90 text-lg md:text-xl mb-10 leading-relaxed max-w-2xl mx-auto">{slide.subtitle}</p>
+                  <div className="flex flex-col md:flex-row justify-center gap-5">
                     {slide.primaryButton && (
                       <Button 
                         variant="default" 
-                        className={`bg-white text-[#0a2463] hover:bg-gray-100 font-bold py-3 px-6 
-                                  transition duration-300 transform hover:-translate-y-1 hover:shadow-md`}
+                        className={`bg-white text-[#0a2463] hover:bg-gray-100 font-bold py-3.5 px-8
+                                  transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg
+                                  rounded-full backdrop-blur-sm bg-opacity-90 hover:bg-opacity-100`}
                         asChild
                       >
                         <Link href={slide.primaryButton.url}>{slide.primaryButton.text}</Link>

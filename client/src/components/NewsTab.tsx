@@ -113,14 +113,17 @@ export default function NewsTab() {
         <TabsContent value="news" className="p-4 bg-white rounded-lg md:p-8 mt-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {newsItems.map((item) => (
-              <Card key={item.id} className="rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
-                <img src={item.image} alt={item.title} className="w-full h-48 object-cover" />
-                <CardContent className="p-5">
-                  <p className="text-sm text-gray-500 mb-2">{item.date}</p>
-                  <h3 className="text-xl font-bold text-[#0a2463] mb-2">{item.title}</h3>
-                  <p className="text-gray-600 mb-4">{item.excerpt}</p>
-                  <Link href={item.slug} className="text-[#0a2463] font-medium hover:underline flex items-center">
-                    Read More <ArrowRight className="ml-1 h-4 w-4" />
+              <Card key={item.id} className="rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl transform hover:-translate-y-2 group">
+                <div className="relative overflow-hidden">
+                  <img src={item.image} alt={item.title} className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                </div>
+                <CardContent className="p-6">
+                  <p className="text-sm text-[#0a2463]/70 font-medium mb-3">{item.date}</p>
+                  <h3 className="text-xl font-bold text-[#0a2463] mb-3 group-hover:text-[#173681] transition-colors">{item.title}</h3>
+                  <p className="text-gray-600 mb-5 line-clamp-2">{item.excerpt}</p>
+                  <Link href={item.slug} className="text-[#0a2463] font-medium hover:text-[#173681] flex items-center transition-colors">
+                    Read More <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </Link>
                 </CardContent>
               </Card>
