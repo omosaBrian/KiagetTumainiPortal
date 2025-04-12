@@ -223,7 +223,7 @@ export default function Contact() {
                     
                     <Button 
                       type="submit" 
-                      className="bg-[#0a2463] hover:bg-[#173681] w-full"
+                      className="bg-[#800000] hover:bg-[#a30000] w-full"
                       disabled={isPending}
                     >
                       {isPending ? (

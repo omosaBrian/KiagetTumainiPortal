@@ -5,12 +5,12 @@ import { Button } from "@/components/ui/button";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#ff0000] text-white pt-12 pb-6"> {/* Changed background color to red */}
+    <footer className="bg-[#800000] text-white pt-12 pb-6"> 
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <div>
             <div className="flex items-center mb-4">
-              <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center text-[#ff0000] font-bold text-xl mr-3">TK</div> {/* Changed text color to red */}
+              <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center text-[#800000] font-bold text-xl mr-3">TK</div> 
               <div>
                 <h3 className="font-['Playfair_Display'] font-bold text-xl">Kiage Tumaini</h3>
                 <p className="text-gray-300 text-sm">Boy's High School</p>
@@ -18,16 +18,16 @@ export default function Footer() {
             </div>
             <p className="text-gray-300 mb-4">A premier educational institution in Kisii County providing exceptional education since 2005.</p>
             <div className="flex space-x-4">
-              <a href="#" className="text-white hover:text-[#ff9999] transition-colors duration-300"> {/* Changed hover color to red */}
+              <a href="#" className="text-white hover:text-[#ff9999] transition-colors duration-300"> 
                 <Facebook size={18} />
               </a>
-              <a href="#" className="text-white hover:text-[#ff9999] transition-colors duration-300"> {/* Changed hover color to red */}
+              <a href="#" className="text-white hover:text-[#ff9999] transition-colors duration-300"> 
                 <Twitter size={18} />
               </a>
-              <a href="#" className="text-white hover:text-[#ff9999] transition-colors duration-300"> {/* Changed hover color to red */}
+              <a href="#" className="text-white hover:text-[#ff9999] transition-colors duration-300"> 
                 <Instagram size={18} />
               </a>
-              <a href="#" className="text-white hover:text-[#ff9999] transition-colors duration-300"> {/* Changed hover color to red */}
+              <a href="#" className="text-white hover:text-[#ff9999] transition-colors duration-300"> 
                 <Youtube size={18} />
               </a>
             </div>
@@ -80,7 +80,7 @@ export default function Footer() {
                 />
                 <Button 
                   type="submit" 
-                  className="bg-[#ffc857] text-[#0a2463] px-4 py-2 rounded-l-none hover:bg-[#ffe09a] transition duration-300"
+                  className="bg-[#800000] text-[#0a2463] px-4 py-2 rounded-l-none hover:bg-[#a00000] transition duration-300"
                 >
                   <Mail className="h-4 w-4" />
                 </Button>
