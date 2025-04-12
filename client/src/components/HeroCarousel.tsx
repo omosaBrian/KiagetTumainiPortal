@@ -93,7 +93,7 @@ export default function HeroCarousel() {
                     {slide.primaryButton && (
                       <Button 
                         variant="default" 
-                        className={`bg-white text-[#a30000] hover:bg-gray-100 font-bold py-3.5 px-8
+                        className={`bg-white text-[#800000] hover:bg-gray-100 font-bold py-3.5 px-8
                                   transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg
                                   rounded-full backdrop-blur-sm bg-opacity-90 hover:bg-opacity-100`}
                         asChild

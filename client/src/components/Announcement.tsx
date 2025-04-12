@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function Announcement() {
   return (
-    <section className="bg-[#a30000] py-4 mt-[4.5rem]">
+    <section className="bg-[#800000] py-4 mt-[4.5rem]">
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
         <div className="flex-1 text-white mb-3 md:mb-0">
           <span className="font-bold mr-2">School Reopening:</span>
