@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function Announcement() {
   return (
-    <section className="bg-[#0a2463] py-4 mt-[4.5rem]">
+    <section className="bg-[#a30000] py-4 mt-[4.5rem]">
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
         <div className="flex-1 text-white mb-3 md:mb-0">
           <span className="font-bold mr-2">School Reopening:</span>
@@ -11,7 +11,7 @@ export default function Announcement() {
         </div>
         <Link 
           href="/news-events" 
-          className="text-white border border-white hover:bg-white hover:text-[#0a2463] px-4 py-1 rounded-sm transition duration-300 text-sm flex items-center"
+          className="text-white border border-white hover:bg-white hover:text-[#a30000] px-4 py-1 rounded-sm transition duration-300 text-sm flex items-center"
         >
           View All <ArrowRight className="ml-1 h-4 w-4" />
         </Link>
