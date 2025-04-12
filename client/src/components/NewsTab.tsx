@@ -120,9 +120,9 @@ export default function NewsTab() {
                 </div>
                 <CardContent className="p-6">
                   <p className="text-sm text-[#800000]/70 font-medium mb-3">{item.date}</p>
-                  <h3 className="text-xl font-bold text-[#800000] mb-3 group-hover:text-[#173681] transition-colors">{item.title}</h3>
+                  <h3 className="text-xl font-bold text-[#800000] mb-3 group-hover:text-[#a30000] transition-colors">{item.title}</h3>
                   <p className="text-gray-600 mb-5 line-clamp-2">{item.excerpt}</p>
-                  <Link href={item.slug} className="text-[#800000] font-medium hover:text-[#173681] flex items-center transition-colors">
+                  <Link href={item.slug} className="text-[#800000] font-medium hover:text-[#a30000] flex items-center transition-colors">
                     Read More <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </Link>
                 </CardContent>
@@ -144,7 +144,7 @@ export default function NewsTab() {
                   </div>
                   <h3 className="text-xl font-bold text-[#800000] mb-2">{item.title}</h3>
                   <p className="text-gray-600 mb-4">{item.excerpt}</p>
-                  <Link href={item.slug} className="text-[#800000] font-medium hover:underline flex items-center">
+                  <Link href={item.slug} className="text-[#800000] font-medium hover:text-[#a30000] flex items-center">
                     More Details <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
                 </CardContent>
