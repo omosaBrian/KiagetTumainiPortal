@@ -138,7 +138,7 @@ export default function Contact() {
             
             {/* Contact Form */}
             <div className="bg-white rounded-lg shadow-xl p-8">
-              <h2 className="text-2xl font-['Playfair_Display'] font-bold text-[#0a2463] mb-6">Send Us a Message</h2>
+              <h2 className="text-2xl font-['Playfair_Display'] font-bold text-[#800000] mb-6">Send Us a Message</h2>
               
               {formSubmitted ? (
                 <div className="text-center py-8">
@@ -163,7 +163,7 @@ export default function Contact() {
                       name="name"
                       render={({ field }) => (
                         <FormItem>
-                          <FormLabel className="text-gray-700">Full Name *</FormLabel>
+                          <FormLabel className="text-[#800000]">Full Name *</FormLabel>
                           <FormControl>
                             <Input placeholder="Your full name" {...field} className="focus:ring-[#0a2463]" />
                           </FormControl>
@@ -178,7 +178,7 @@ export default function Contact() {
                         name="email"
                         render={({ field }) => (
                           <FormItem>
-                            <FormLabel className="text-gray-700">Email *</FormLabel>
+                            <FormLabel className="text-[#800000]">Email *</FormLabel>
                             <FormControl>
                               <Input type="email" placeholder="Your email address" {...field} className="focus:ring-[#0a2463]" />
                             </FormControl>
@@ -192,7 +192,7 @@ export default function Contact() {
                         name="phone"
                         render={({ field }) => (
                           <FormItem>
-                            <FormLabel className="text-gray-700">Phone *</FormLabel>
+                            <FormLabel className="text-[#800000]">Phone *</FormLabel>
                             <FormControl>
                               <Input placeholder="Your phone number" {...field} className="focus:ring-[#0a2463]" />
                             </FormControl>
@@ -207,7 +207,7 @@ export default function Contact() {
                       name="message"
                       render={({ field }) => (
                         <FormItem>
-                          <FormLabel className="text-gray-700">Message *</FormLabel>
+                          <FormLabel className="text-[#800000]">Message *</FormLabel>
                           <FormControl>
                             <Textarea 
                               placeholder="How can we help you?" 
@@ -246,7 +246,7 @@ export default function Contact() {
       {/* Map Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-['Playfair_Display'] font-bold text-[#0a2463] text-center mb-4">
+          <h2 className="text-3xl md:text-4xl font-['Playfair_Display'] font-bold text-[#800000] text-center mb-4">
             Visit Our Campus
           </h2>
           <div className="w-20 h-1 bg-[#ffc857] mx-auto mb-12"></div>
@@ -279,7 +279,7 @@ export default function Contact() {
       {/* Book a Tour Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-['Playfair_Display'] font-bold text-[#0a2463] mb-4">
+          <h2 className="text-3xl font-['Playfair_Display'] font-bold text-[#800000] mb-4">
             Want to Visit Our School?
           </h2>
           <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
@@ -290,7 +290,7 @@ export default function Contact() {
           <Button 
             variant="default" 
             size="lg"
-            className="bg-[#0a2463] hover:bg-[#173681] text-white font-bold transition duration-300 transform hover:-translate-y-1 hover:shadow-md"
+            className="bg-[#800000] hover:bg-[#a30000] text-white font-bold transition duration-300 transform hover:-translate-y-1 hover:shadow-md"
           >
             Book a Campus Tour
           </Button>
