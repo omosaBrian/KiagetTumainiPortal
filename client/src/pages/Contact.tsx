@@ -73,7 +73,7 @@ export default function Contact() {
   return (
     <>
       {/* Hero Section */}
-      <section className="py-16 bg-[#0a2463] relative">
+      <section className="py-16 bg-[#800000] relative">
         <div className="container mx-auto px-4">
           <div className="text-center">
             <h1 className="text-3xl md:text-4xl font-['Playfair_Display'] font-bold text-white mb-4">
@@ -91,7 +91,7 @@ export default function Contact() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto -mt-24 relative z-10">
             {/* Contact Information */}
-            <div className="bg-[#0a2463] rounded-lg shadow-xl p-8 text-white">
+            <div className="bg-[#800000] rounded-lg shadow-xl p-8 text-white">
               <h2 className="text-2xl font-['Playfair_Display'] font-bold mb-6">Get In Touch</h2>
               <p className="mb-8">
                 Have questions or need more information? Reach out to us through any of the following channels:
