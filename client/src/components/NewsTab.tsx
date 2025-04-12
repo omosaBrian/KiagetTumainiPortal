@@ -92,8 +92,8 @@ export default function NewsTab() {
               value="news"
               className={`px-4 py-3 font-medium rounded-none ${
                 activeTab === "news"
-                  ? "border-b-2 border-[#0a2463] text-[#0a2463]"
-                  : "border-b-2 border-transparent text-gray-500 hover:text-[#0a2463] hover:border-[#0a2463]"
+                  ? "border-b-2 border-[#a30000] text-[#a30000]"
+                  : "border-b-2 border-transparent text-gray-500 hover:text-[#a30000] hover:border-[#a30000]"
               }`}
             >
               Latest News
@@ -102,8 +102,8 @@ export default function NewsTab() {
               value="events"
               className={`px-4 py-3 font-medium rounded-none ${
                 activeTab === "events"
-                  ? "border-b-2 border-[#0a2463] text-[#0a2463]"
-                  : "border-b-2 border-transparent text-gray-500 hover:text-[#0a2463] hover:border-[#0a2463]"
+                  ? "border-b-2 border-[#a30000] text-[#a30000]"
+                  : "border-b-2 border-transparent text-gray-500 hover:text-[#a30000] hover:border-[#a30000]"
               }`}
             >
               Upcoming Events
@@ -119,10 +119,10 @@ export default function NewsTab() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
                 <CardContent className="p-6">
-                  <p className="text-sm text-[#0a2463]/70 font-medium mb-3">{item.date}</p>
-                  <h3 className="text-xl font-bold text-[#0a2463] mb-3 group-hover:text-[#173681] transition-colors">{item.title}</h3>
+                  <p className="text-sm text-[#a30000]/70 font-medium mb-3">{item.date}</p>
+                  <h3 className="text-xl font-bold text-[#a30000] mb-3 group-hover:text-[#173681] transition-colors">{item.title}</h3>
                   <p className="text-gray-600 mb-5 line-clamp-2">{item.excerpt}</p>
-                  <Link href={item.slug} className="text-[#0a2463] font-medium hover:text-[#173681] flex items-center transition-colors">
+                  <Link href={item.slug} className="text-[#a30000] font-medium hover:text-[#173681] flex items-center transition-colors">
                     Read More <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </Link>
                 </CardContent>
@@ -136,15 +136,15 @@ export default function NewsTab() {
               <Card key={item.id} className="rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
                 <CardContent className="p-5">
                   <div className="flex items-center justify-between mb-3">
-                    <div className="bg-[#0a2463] text-white text-center p-2 rounded-md w-16">
+                    <div className="bg-[#a30000] text-white text-center p-2 rounded-md w-16">
                       <span className="block text-xl font-bold">{item.date}</span>
                       <span className="block text-sm">{item.month}</span>
                     </div>
                     <span className="text-gray-500">{item.time}</span>
                   </div>
-                  <h3 className="text-xl font-bold text-[#0a2463] mb-2">{item.title}</h3>
+                  <h3 className="text-xl font-bold text-[#a30000] mb-2">{item.title}</h3>
                   <p className="text-gray-600 mb-4">{item.excerpt}</p>
-                  <Link href={item.slug} className="text-[#0a2463] font-medium hover:underline flex items-center">
+                  <Link href={item.slug} className="text-[#a30000] font-medium hover:underline flex items-center">
                     More Details <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
                 </CardContent>

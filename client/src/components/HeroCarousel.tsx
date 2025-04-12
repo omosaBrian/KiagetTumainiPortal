@@ -59,7 +59,7 @@ export default function HeroCarousel() {
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
     }, 6000);
-    
+
     return () => clearInterval(timer);
   }, [slides.length]);
 
@@ -93,7 +93,7 @@ export default function HeroCarousel() {
                     {slide.primaryButton && (
                       <Button 
                         variant="default" 
-                        className={`bg-white text-[#0a2463] hover:bg-gray-100 font-bold py-3.5 px-8
+                        className={`bg-white text-[#a30000] hover:bg-gray-100 font-bold py-3.5 px-8
                                   transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg
                                   rounded-full backdrop-blur-sm bg-opacity-90 hover:bg-opacity-100`}
                         asChild
@@ -104,7 +104,7 @@ export default function HeroCarousel() {
                     {slide.secondaryButton && (
                       <Button 
                         variant="default" 
-                        className={`bg-[#ffc857] text-[#0a2463] hover:bg-[#ffe09a] font-bold py-3 px-6 
+                        className={`bg-[#ffc857] text-[#a30000] hover:bg-[#ffe09a] font-bold py-3 px-6 
                                   transition duration-300 transform hover:-translate-y-1 hover:shadow-md`}
                         asChild
                       >
@@ -118,7 +118,7 @@ export default function HeroCarousel() {
           </div>
         ))}
       </div>
-      
+
       {/* Carousel Indicators */}
       <div className="absolute bottom-10 left-0 right-0 flex justify-center space-x-3 z-20">
         {slides.map((_, index) => (
@@ -131,7 +131,7 @@ export default function HeroCarousel() {
           ></button>
         ))}
       </div>
-      
+
       {/* Scroll Down Indicator */}
       <div className="absolute bottom-5 left-0 right-0 flex justify-center z-20">
         <a href="#about" className="text-white flex flex-col items-center animate-bounce">
